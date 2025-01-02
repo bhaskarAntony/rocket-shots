@@ -1,0 +1,63 @@
+.companies{
+    background: linear-gradient(#1e2f34f2, #0c1116), url(https://demo.xperthemes.com/agenoz/wp-content/uploads/sites/9/2024/06/square-dotted-world-map-and-earth-globes.png) no-repeat center;
+    background-size: cover;
+}
+.v-line{
+    width: 2px;
+    height: 100px;
+    background: linear-gradient(#2f118073, var(--primary-color));
+    margin: 30px 0px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 100px;
+}
+.companies h1{
+    font-weight: 400;
+}
+
+/* CompanyCarousel.css */
+.company-carousel {
+    width: 90%;
+    margin: auto;
+}
+
+.company-slide {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.company-slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.company-images{
+    margin-top: 30px;
+}
+.company-images img{
+    width: 200px;
+    height: 100px !important;
+    object-fit: contain;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #2e433d69, #1c654297);
+    border-radius: 10px;
+    padding: 10px;
+    /* filter: grayscale(50%); */
+    backdrop-filter: blur(90px);
+}
+.slick-arrow{
+    display: none !important;
+}

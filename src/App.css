@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --dark2:#11141b;
+}
+*{
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+}
+
+.bg-dark{
+  background-color: #0c0f16 !important;
+}
+.dark2{
+  background-color: var(--dark2) !important;
+}
+.text-aqua{
+  color: #65a874 !important;
+}
+.reel{
+  height: 70px;
+  background: url(https://media.tenor.com/_nicmdVprBoAAAAM/film-filmstrip.gif) repeat-x;
+  background-size: 10%;
+  /* filter: invert(90%); */
+  /* filter: hue-rotate(300deg); */
+  filter: opacity(10%);
+}
+.heading{
+    letter-spacing: 10px;
+    font-weight: 900 !important;
+}

@@ -1,0 +1,9 @@
+.banner{
+    min-height: 50vh;
+    /* background: ; */
+    background-size: cover !important;
+    background-position: right top !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

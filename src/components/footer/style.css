@@ -1,0 +1,32 @@
+footer ul{
+    list-style-type: none;
+    padding: 0px;
+    line-height: 2;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+footer h4{
+    position: relative;
+    margin-bottom: 30px;
+}
+footer h4::before{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    background-color: rgb(52, 197, 129);
+    border-radius: 100px;
+    left: 0px;
+    bottom: -10px;
+}
+.line{
+    width: 80%;
+    margin: auto;
+    height: 1px;
+    border-radius: 100px;
+    background: linear-gradient(45deg, #26916650, #089863, #089863, #26916650);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

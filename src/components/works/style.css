@@ -1,0 +1,8 @@
+.v1{
+    max-height: 250px;
+}
+.works video{
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+}

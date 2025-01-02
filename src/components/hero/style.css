@@ -1,0 +1,29 @@
+
+.hero{
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+.hero .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(#00000086, #000);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.hero video{
+    object-fit: cover !important;
+    height: 80vh;
+    object-position: center;
+}
+.stroke{
+    -webkit-text-stroke: 2px  #c50535;
+    color: transparent !important;
+}

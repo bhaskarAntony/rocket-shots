@@ -1,0 +1,42 @@
+.logo{
+    width: 150px;
+}
+header{
+    /* background: #1a1e25; */
+}
+header .nav-link{
+    font-size: 1rem;
+    color: #fff !important;
+}
+header .nav-link:hover{
+    color: #109f6b !important;
+}
+.dropdown-menu{
+    border-radius: 0px !important;
+    background-color: #1a1e25 !important;
+
+}
+.dropdown-item{
+    padding: 10px !important;
+    
+}
+.dropdown-item{
+    color: #fff !important;
+}
+.dropdown-item:hover{
+    color: #1a1e25 !important;
+}
+.offcanvas ul{
+    list-style-type: none;
+    line-height: 3;
+    padding: 0px;
+    color: #109f6b;
+}
+.offcanvas ul li a{
+    color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.offcanvas ul li{
+    border-bottom: 1px solid #ccc;
+}
