@@ -12,6 +12,8 @@ import Marketing from './pages/services/Marketing'
 import UIUX from './pages/services/UIUX'
 import Footer from './components/footer/Footer'
 import About from './pages/about/About'
+import ContactPage from './pages/contactPage/ContactPage'
+import Gallery from './pages/Gallery/Gallery'
 
 function App() {
   useEffect(()=>{
@@ -30,6 +32,8 @@ function App() {
         <Route path='/graphic-designing' element={<Graphics/>}/>
         <Route path='/marketing' element={<Marketing/>}/>
         <Route path='/ui-ux' element={<UIUX/>}/>
+        <Route path='/contact-us' element={<ContactPage/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -11,9 +11,9 @@ function Home() {
   return (
     <div>
         <Hero/>
-        <div className="reel">
+        {/* <div className="reel">
 
-        </div>
+        </div> */}
         <Aboutus/>
         <Services/>
         <Companies/>

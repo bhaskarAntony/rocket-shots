@@ -8,35 +8,38 @@ function Footer() {
             <div className="col-md-3 mb-3">
                 <h4 className="fs-4 fw-bold">About Our Company</h4>
                 <p className="fs-6" style={{textAlign:'justify'}}>
-                Rocketshots was instantiated on 5th Aug 2022 by Rakshit ksheersagar and Likith Raj experienced pioneers of the digital world.
+                Rocketshots was instantiated on 5th Aug 2022 by Ranav ksheersagar and Likith Raj experienced pioneers of the digital world.
                 </p>
             </div>
             <div className="col-md-3 mb-3">
                 <h4 className="fs-4 fw-bold">Quick Links</h4>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Contact us</a></li>
-                    {/* <li><a href="">About us</a></li> */}
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about-us">About us</a></li>
+                    <li><a href="/contact-us">Contact us</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
                 </ul>
             </div>
 
             <div className="col-md-3 mb-3">
-                <h4 className="fs-4 fw-bold">Opening Hours</h4>
-                <p className="fs-6">Voluptatem delectus facilisi, eiusm accusamus euismod ex hac.</p>
-                <ul>
-                    <li>Sun - Thu : <span className="text-aqua">09:00 - 05:00</span></li>
-                    <li>Friday :  <span className="text-aqua">09:00 - 03:00</span></li> 
-                    <li>Saturday : <span className="text-aqua"> Holiday(Closed)</span> </li>
-                </ul>
-            </div>
+  <h4 className="fs-4 fw-bold">Opening Hours</h4>
+  <p className="fs-6">We are committed to serving you during the following hours:</p>
+  <ul>
+    <li>Monday - Friday: <span className="text-aqua">09:00 AM - 06:00 PM</span></li>
+    <li>Saturday: <span className="text-aqua">10:00 AM - 04:00 PM</span></li>
+    <li>Sunday: <span className="text-aqua">Closed</span></li>
+  </ul>
+</div>
+
             <div className="col-md-3 mb-3">
                 <h4 className="fs-4 fw-bold">Our Services</h4>
                 <ul>
-                    <li><a href="">Digital Marketing</a></li>
-                    <li><a href="">Content Creation</a></li>
-                    <li><a href="">Graphic Designing</a></li>
-                    <li><a href="">Website Development</a></li>
+                    <li><a href="/marketing">Digital Marketing</a></li>
+                    <li><a href="/content/creation">Content Creation</a></li>
+                    <li><a href="/graphic-designing">Graphic Designing</a></li>
+                    <li><a href="/web/development">Website Development</a></li>
+                    <li><a href="/ui-ux">UI/UX</a></li>
+                    <li><a href="/branding">Branding & Advartisment</a></li>
                 </ul>
             </div>
         </div>

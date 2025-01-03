@@ -23,7 +23,7 @@ function Steps() {
     <div className="text-center">
         <p className="fs-5 text-aqua" data-aos="fade-up">STEPS WE FOLLOW</p>
         <h1 className="display-3 fw-bold" data-aos="fade-up">Simple Steps We Follow</h1>
-        <p className="fs-6" data-aos="fade-up">Veniam commodo magni mollis justo, saepe magnam! <br /> Eius sint atque. Beatae unde cras dictum natoque lectus perspiciat explicabo euismod.</p>
+        <p className="fs-5" data-aos="fade-up">We follow a clear process: understand client needs, plan thoroughly, execute <br/> with precision, ensure quality, and deliver exceptional results.</p>
     </div>
     <div className="row mt-5">
         {

@@ -220,14 +220,23 @@ function Companies({click}) {
                  </div>
               ))}
           </Slider>
+          <Slider {...settings}>
+              {companyData.map((company, index) => (
+                 <div className="col-md-2 col-4 p-2">
+                   <div key={index} className="company-slide">
+                      <img src={company} alt='loading' />
+                  </div>
+                 </div>
+              ))}
+          </Slider>
 
          
       </div>
             </div>
             <div className="col-md-6 text-white">
                 <h5 className="fs-5 text-aqua" data-aos="fade-left">PARTNERS & SPONSERS</h5>
-                <h1 className="fs-1 fw-bold" data-aos="fade-left">Best Trusted Clients & Partners</h1>
-                <p className="fs-6" data-aos="fade-up">Veniam commodo magni mollis justo, saepe magnam! Eius sint atque. Beatae unde cras dictum natoque lectus perspiciat explicabo euismod beatae elementum nostra nibh potenti.</p>
+                <h1 className="display-3 fw-bold" data-aos="fade-left">Best Trusted Clients & Partners</h1>
+                <p className="fs-6" data-aos="fade-up">We take immense pride in collaborating with some of the most reputed organizations across industries. Our clients and partners have always been at the heart of our success, driving innovation and trust. With their continued confidence, we strive to deliver exceptional service and sustainable solutions, strengthening our bond with every engagement.</p>
             </div>
         </div>
        
