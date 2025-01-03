@@ -53,7 +53,7 @@ function Gallery() {
 
                 <div class="col-lg-4 mb-4 mb-lg-0">
                 <video src={v11} className="w-100 v3" autoPlay loop muted controls data-aos="zoom-in-left"></video>
-                <video src={v4} className="w-100 v1" autoPlay loop muted controls data-aos="zoom-in-right"></video>  
+                <video src={v3} className="w-100 v1" autoPlay loop muted controls data-aos="zoom-in-right"></video>  
                 </div>
                 </div>
 
