@@ -46,7 +46,7 @@ function Footer() {
         <div className="line"></div>
         <div className="row">
             <div className="col-md-6 mb-3">
-                <p className="fs-6">Copyright © 2024 Agenoz. All right reserved.</p>
+                <p className="fs-6">Copyright &copy; {new Date().getFullYear()} Rocketshots. All right reserved.</p>
             </div>
             <div className="col-md-6">
                 <div className="fs-4 d-flex justify-content-end gap-3">
