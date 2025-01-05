@@ -5,7 +5,7 @@ import c1 from '../../assets/images/1.png'
 import c2 from '../../assets/images/10.png'
 import c3 from '../../assets/images/11.png'
 import c4 from '../../assets/images/12.png'
-import c5 from '../../assets/images/1ROCKET SHOTS LOGO COLOUR.png'
+// import c5 from '../../assets/images/1ROCKET SHOTS LOGO COLOUR.png'
 import c6 from '../../assets/images/2.png'
 import c7 from '../../assets/images/3.png'
 import c8 from '../../assets/images/4.png'
@@ -52,6 +52,9 @@ import c48 from '../../assets/images/pr logo.png'
 import c49 from '../../assets/images/sag.png'
 import c50 from '../../assets/images/stepinterior.png'
 import c51 from '../../assets/images/teatreesuites.png'
+import sms from '../../assets/images/mahalakshmi_sweets.png'
+import sangeetha from '../../assets/images/sangeetha.png'
+import dewars from '../../assets/images/dewars.png'
 
 function Companies({click}) {
     const companyData = [
@@ -59,8 +62,8 @@ function Companies({click}) {
         c2,
         c3,
         c4,
-        c5,
-        c6,
+        // c5,
+        // c6,
         c7,
         c8,
         c9,
@@ -68,13 +71,13 @@ function Companies({click}) {
         c11,
         c12,
         c13,
-        c14,
+        // c14,
         c15,
         c16,
         c17,
         c18,
         c19,
-        c20,
+        // c20,
         c21,
         c22,
         c23,
@@ -87,7 +90,7 @@ function Companies({click}) {
         c30,
         c31,
         c32,
-        c33,
+        // c33,
         c34,
         c35,
         c36,
@@ -99,7 +102,7 @@ function Companies({click}) {
         c42,
         c43,
         c44,
-        c45,
+        // c45,
         c46,
         c47,
         c48,
@@ -133,7 +136,7 @@ function Companies({click}) {
         c29,
         c30,
         c31,
-        c5,
+        // c5,
         c6,
         c7,
         c8,
@@ -165,6 +168,18 @@ function Companies({click}) {
         c45,
        
     ];
+    const staticData = [
+            c45,
+            sms,
+            sangeetha,
+            c20,
+            dewars,
+            c33,
+            c14,
+            c6,
+
+
+    ]
     
     const settings = {
         dots: false, // Display dots below the carousel
@@ -201,17 +216,17 @@ function Companies({click}) {
             <div className="col-md-6">
             <div className="company-images">
           
-          <Slider {...settings}>
-              {companyData.map((company, index) => (
-                 <div className="col-md-2 col-4 p-2">
+           <div className="row">
+           {staticData.map((company, index) => (
+                 <div className="col-md-3 col-4 p-2">
                    <div key={index} className="company-slide">
                       <img src={company} alt='loading' />
                   </div>
                  </div>
               ))}
-          </Slider>
+           </div>
 
-          <Slider {...settings}>
+          {/* <Slider {...settings}>
               {companyData2.reverse().map((company, index) => (
                  <div className="col-md-2 col-4 p-2" >
                    <div key={index} className="company-slide">
@@ -219,7 +234,7 @@ function Companies({click}) {
                   </div>
                  </div>
               ))}
-          </Slider>
+          </Slider> */}
           <Slider {...settings}>
               {companyData.map((company, index) => (
                  <div className="col-md-2 col-4 p-2">

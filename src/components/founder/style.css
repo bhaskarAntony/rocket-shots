@@ -1,0 +1,21 @@
+.blur{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(#90fcc8, #7efcda);
+    border-radius: 100px;
+    position: absolute;
+    top: 80px;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-55%);
+    filter: blur(90px);
+
+}
+.middle{
+    position: relative;
+    z-index: 1;
+    
+}
+.middle img{
+
+}

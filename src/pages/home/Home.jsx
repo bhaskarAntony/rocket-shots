@@ -6,6 +6,7 @@ import Companies from '../../components/clients/Clients'
 import Works from '../../components/works/Works'
 import Steps from '../../components/Steps/Steps'
 import Contact from '../../components/contact/Contact'
+import Founder from '../../components/founder/Founder'
 
 function Home() {
   return (
@@ -17,8 +18,9 @@ function Home() {
         <Aboutus/>
         <Services/>
         <Companies/>
-        <Steps/>
         <Works/>
+        <Steps/>
+        <Founder/>
         <Contact/>
         {/* <FaqsSection/>   */}
     </div>

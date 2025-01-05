@@ -9,7 +9,7 @@ function Header() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <header className='dark-2'>
+    <header className=''>
          <Navbar expand="lg">
          <Container fluid>
   <Navbar.Brand href="/">
@@ -20,7 +20,7 @@ function Header() {
   </button>
   <Navbar.Collapse id="navbarScroll" className="d-none d-md-block">
     <Nav
-      className="me-auto my-2 my-lg-0 justify-content-center gap-4 w-100"
+      className="me-auto my-2 my-lg-0 justify-content-end gap-2 w-100"
       style={{ maxHeight: '100px' }}
       navbarScroll
     >
@@ -34,16 +34,21 @@ function Header() {
         <NavDropdown.Item href="/marketing">Digital marketing</NavDropdown.Item>
         <NavDropdown.Item href="/ui-ux">UI/UX</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="/gallery">Gallery</Nav.Link>
+      <NavDropdown title="Gallery" id="navbarScrollingDropdown">
+        <NavDropdown.Item href="/gallery">Works</NavDropdown.Item>
+        <NavDropdown.Item href="/web/development">Engagement Status</NavDropdown.Item>
+       
+        <NavDropdown.Item href="/ui-ux">Testimonials</NavDropdown.Item>
+      </NavDropdown>
       <Nav.Link href="/contact-us">Contact Us</Nav.Link>
 
     </Nav>
-    <ul className='mt-2 d-flex gap-3 p-0' type='none'>
+    {/* <ul className='mt-2 d-flex gap-3 p-0' type='none'>
     <li className='contact-icon1'><a href=""><i className='bi bi-instagram text-warning'></i></a></li>
     <li className='contact-icon1'><a href=""><i className='bi bi-youtube text-danger'></i></a></li>
     <li className='contact-icon1'><a href=""><i className='bi bi-whatsapp text-success'></i></a></li>
   
-    </ul>
+    </ul> */}
    
   </Navbar.Collapse>
 </Container>

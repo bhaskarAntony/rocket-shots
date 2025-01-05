@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, useLocation, useParams } from 'react-router-dom'
 import Home from './pages/home/Home'
 import Header from './components/header/Header'
 import './App.css'
@@ -19,10 +19,14 @@ function App() {
   useEffect(()=>{
     Aos.init();
   }, [])
+ 
+  
   return (
    <section className='overflow-hidden dark2'>
     <BrowserRouter>
-    <Header/>
+   {/* {
+    locatio
+   } */}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about-us' element={<About/>}/>

@@ -17,8 +17,6 @@ function Gallery() {
   return (
     <div className='works'>
          <Banner title='Gallery' subtitle='' image='https://img.freepik.com/premium-photo/quotphotographers-presenting-gallery-exhibitionquot_1168612-171394.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid'/>
-
-
         <section className="container-fluid p-3 p-md-5">
         <div class="row mt-5">
                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
@@ -56,8 +54,6 @@ function Gallery() {
                 <video src={v3} className="w-100 v1" autoPlay loop muted controls data-aos="zoom-in-right"></video>  
                 </div>
                 </div>
-
-              
         </section>
         <Contact/>
 

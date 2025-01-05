@@ -5,7 +5,7 @@ function Contact() {
         {
             icon:'bi bi-envelope',
             title:'Email',
-            description:'rocketshots@gmail.com'
+            description:'werocketshots@gmail.com'
         },
         {
             icon:'bi bi-telephone',
@@ -15,7 +15,7 @@ function Contact() {
         {
             icon:'bi bi-geo-alt',
             title:'Address',
-            description:'1356 broadway, new york city 10018 USA'
+            description:'Sadashiva nagar and Basaveshwara nagar'
         }
     ]
   return (

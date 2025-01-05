@@ -1,12 +1,18 @@
 .logo{
-    width: 150px;
+    width: 100px;
 }
 header{
-    /* background: #1a1e25; */
+    background: #00000000 !important; 
+    /* backdrop-filter: blur(100px) !important;
+    position: sticky !important;
+    top: 0px !important; */
+    backdrop-filter: blur(1px);
+    z-index: 1020;
 }
 header .nav-link{
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #fff !important;
+    letter-spacing: 1.8px;
 }
 header .nav-link:hover{
     color: #109f6b !important;
