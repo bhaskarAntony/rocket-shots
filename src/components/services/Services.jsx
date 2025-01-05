@@ -31,7 +31,7 @@ function Services() {
         },
         {
             icon:'',
-            title:'Branding and advertising',
+            title:'Branding and Advertising',
             description:'A strong brand identity is essential for standing out in a crowded marketplace.',
             image:'https://img.freepik.com/free-photo/graphic-designer-laptop-with-paint-materials_23-2147652938.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid',
             link:'/branding'

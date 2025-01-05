@@ -65,7 +65,7 @@ function Header() {
             <li><a href="/about-us">About us</a></li>
             <div className="line"></div>
             {/* <li><a href="/">Contact us</a></li> */}
-            <li className='fs-4'>Servicess</li>
+            <li className='fs-4'>Services</li>
             <li><a href="/content/creation">Content Creation</a></li>
             <li><a href="/web/development">Web Development</a></li>
             <li><a href="/branding">Branding and advertising</a></li>

@@ -19,9 +19,7 @@ function Works() {
        <div className="video">
        <video src={v5} className="w-100 v1" autoPlay loop muted controls 
         data-aos="zoom-in-right"></video>
-        <div className="popup">
-
-        </div>
+       
        </div>
          <video src={insta3} className="w-100 v3" autoPlay loop muted controls data-aos="zoom-in"></video>
         

@@ -18,7 +18,7 @@ import c14 from '../../assets/images/9.png'
 import c15 from '../../assets/images/A shot logo final Opposite color PNG.webp'
 import c16 from '../../assets/images/Bhartiya Jalpan Logo.png'
 import c17 from '../../assets/images/Donne Biryani logo (1).png'
-import c18 from '../../assets/images/Firewater_Horizontal Logo.png'
+// import c18 from '../../assets/images/Firewater_Horizontal Logo.png'
 import c19 from '../../assets/images/Firewater_Horizontal Logo_white.png'
 import c20 from '../../assets/images/Four-Seasons-Logo.png'
 import c21 from '../../assets/images/Green Theory Logo Files-11.png'
@@ -36,10 +36,10 @@ import c32 from '../../assets/images/SMS LOGO1 (7)-1.png'
 import c33 from '../../assets/images/Sanchez UB City.png'
 import c34 from '../../assets/images/Sriracha UB City.png'
 import c35 from '../../assets/images/WhatsApp Image 2024-02-14 at 4.00.10 PM.jpeg'
-import c36 from '../../assets/images/WhatsApp Image 2024-08-07 at 1.13.40 PM.jpeg'
-import c37 from '../../assets/images/WhatsApp Image 2024-08-07 at 1.13.40 PM.jpeg'
+// import c36 from '../../assets/images/WhatsApp Image 2024-08-07 at 1.13.40 PM.jpeg'
+// import c37 from '../../assets/images/WhatsApp Image 2024-08-07 at 1.13.40 PM.jpeg'
 import c38 from '../../assets/images/WhatsApp Image 2024-08-07 at 1.13.41 PM.jpeg'
-import c39 from '../../assets/images/WhiteBigSticker.png'
+// import c39 from '../../assets/images/WhiteBigSticker.png'
 import c40 from '../../assets/images/YellowBigSticker.png'
 import c41 from '../../assets/images/Zest-Logo-2023-Round.png'
 import c42 from '../../assets/images/green theory.00_03_08_14.Still002.png'
@@ -49,7 +49,7 @@ import c45 from '../../assets/images/karnataka_govt_logo.png'
 import c46 from '../../assets/images/khivraj logo.png'
 import c47 from '../../assets/images/magnon logo.png'
 import c48 from '../../assets/images/pr logo.png'
-import c49 from '../../assets/images/sag.png'
+// import c49 from '../../assets/images/sag.png'
 import c50 from '../../assets/images/stepinterior.png'
 import c51 from '../../assets/images/teatreesuites.png'
 import sms from '../../assets/images/mahalakshmi_sweets.png'
@@ -58,10 +58,10 @@ import dewars from '../../assets/images/dewars.png'
 
 function Companies({click}) {
     const companyData = [
-        c1,
+        // c1,
         c2,
         c3,
-        c4,
+        // c4,
         // c5,
         // c6,
         c7,
@@ -75,7 +75,7 @@ function Companies({click}) {
         c15,
         c16,
         c17,
-        c18,
+        // c18,
         c19,
         // c20,
         c21,
@@ -89,14 +89,14 @@ function Companies({click}) {
         c29,
         c30,
         c31,
-        c32,
+        // c32,
         // c33,
         c34,
         c35,
-        c36,
-        c37,
+        // c36,
+        // c37,
         c38,
-        c39,
+        // c39,
         c40,
         c41,
         c42,
@@ -106,68 +106,12 @@ function Companies({click}) {
         c46,
         c47,
         c48,
-        c49,
+        // c49,
         c50,
         c51,
     ];
 
-    const companyData2 = [
-       
-       
-       
-        c32,
-        c33,
-        c34,
-        c35,
-        c36,
-        c37,
-        c38,
-        c39,
-        c40,
-        c41,
-        c1,
-        c2,
-        c3,
-        c4,
-        c25,
-        c26,
-        c27,
-        c28,
-        c29,
-        c30,
-        c31,
-        // c5,
-        c6,
-        c7,
-        c8,
-        c42,
-        c43,
-        c44,
-        c17,
-        c18,
-        c19,
-        c20,
-        c21,
-        c22,
-        c23,
-        c9,
-        c10,
-        c11,
-        c12,
-        c13,
-        c46,
-        c47,
-        c48,
-        c49,
-        c50,
-        c51,
-        c14,
-        c15,
-        c16,
-        c24,
-        c45,
-       
-    ];
+  
     const staticData = [
             c45,
             sms,
@@ -184,11 +128,11 @@ function Companies({click}) {
     const settings = {
         dots: false, // Display dots below the carousel
         infinite: true, // Infinite looping
-        speed: 2000, // Transition speed
+        speed: 1000, // Transition speed
         slidesToShow: 4, // Number of slides to show
         slidesToScroll: 1, // Number of slides to scroll
         autoplay: true, // Enable autoplay
-        autoplaySpeed: 2000, // Autoplay speed
+        autoplaySpeed: 1000, // Autoplay speed
         responsive: [
             {
                 breakpoint: 1024, // Screen width breakpoint
