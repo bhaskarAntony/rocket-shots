@@ -32,7 +32,8 @@ function Works() {
         <div class="col-lg-4 mb-4 mb-lg-0">
         <video src={insta2} className="w-100 v2" autoPlay loop muted controls data-aos="zoom-in"></video>
       
-        <video src={insta1} className="w-100 v1" autoPlay loop muted controls data-aos="zoom-in-right"></video>
+      
+        <video src='https://firebasestorage.googleapis.com/v0/b/sporti-2e307.appspot.com/o/sporti%20videos%2Fsporti_1%20(1).mp4?alt=media&token=65f28e6b-12a2-4f0b-b028-503adc534f0a' className="w-100 v1" autoPlay loop muted controls data-aos="zoom-in-left"></video>
         
 
       
@@ -41,8 +42,9 @@ function Works() {
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
+        <video src={insta1} className="w-100 v1" autoPlay loop muted controls data-aos="zoom-in-right"></video>
         <video src={insta6} className="w-100 v2" autoPlay loop muted controls data-aos="zoom-in-left"></video>
-        <video src='https://firebasestorage.googleapis.com/v0/b/sporti-2e307.appspot.com/o/sporti%20videos%2Fsporti_1%20(1).mp4?alt=media&token=65f28e6b-12a2-4f0b-b028-503adc534f0a' className="w-100 v1" autoPlay loop muted controls data-aos="zoom-in-left"></video>
+        {/* <video src='https://firebasestorage.googleapis.com/v0/b/sporti-2e307.appspot.com/o/sporti%20videos%2Fsporti_1%20(1).mp4?alt=media&token=65f28e6b-12a2-4f0b-b028-503adc534f0a' className="w-100 v1" autoPlay loop muted controls data-aos="zoom-in-left"></video> */}
         </div>
         </div>
         <center className="mt-4">
