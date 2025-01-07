@@ -1,0 +1,8 @@
+.swiper-container {
+    width: 750px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide{
+    width: 300px;
+  }

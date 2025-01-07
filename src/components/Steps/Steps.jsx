@@ -6,15 +6,15 @@ function Steps() {
     const data = [
         {
             title:'Project / Plan Creation',
-            description:'Mollit est inceptos ipsam class nihil dicta primis illum ad laoreet parturient.'
+            description:'We understand your requirment and need to uplift and market your Products '
         },
         {
             title:'Research & Implement',
-            description:'Mollit est inceptos ipsam class nihil dicta primis illum ad laoreet parturient.'
+            description:'We plan according to your Highest selling product and the Least selling product  to be sold in the market , By targeting the look alike audience for your product '
         },
         {
             title:'Launch & Success',
-            description:'Mollit est inceptos ipsam class nihil dicta primis illum ad laoreet parturient.'
+            description:' ⁠We  execute the plan in such a way that ROI is 10X time of your investments'
         }
     ]
    
