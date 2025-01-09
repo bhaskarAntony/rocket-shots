@@ -78,10 +78,8 @@ function Header() {
             <li><a href="/gallery">Gallery</a></li>
           </ul>
 
-    
-
           <div className="line"></div>
-          <p className='text-aqua fs-4'>Fallow us on</p>
+          <p className='text-aqua fs-4'>Follow us on</p>
           <ul className='mt-2 d-flex gap-3 p-0' type='none'>
           <li className='contact-icon1'><a href=""><i className='bi bi-instagram text-warning'></i></a></li>
           <li className='contact-icon1'><a href=""><i className='bi bi-youtube text-danger'></i></a></li>

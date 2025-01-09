@@ -55,6 +55,9 @@ import c51 from '../../assets/images/teatreesuites.png'
 import sms from '../../assets/images/mahalakshmi_sweets.png'
 import sangeetha from '../../assets/images/sangeetha.png'
 import dewars from '../../assets/images/dewars.png'
+import skimnner from '../../assets/images/Skinner logo.jpg'
+import friendCarZone from '../../assets/images/fonts car zon.jpg'
+import axaleos from '../../assets/images/azaleos.png'
 
 function Companies({click}) {
     const companyData = [
@@ -65,11 +68,14 @@ function Companies({click}) {
         // c5,
         // c6,
         c7,
+        friendCarZone,
+        skimnner,
         c8,
         c9,
         c10,
         c11,
         c12,
+        axaleos,
         c13,
         // c14,
         c15,

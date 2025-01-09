@@ -8,7 +8,7 @@ function Footer() {
             <div className="col-md-3 mb-3">
                 <h4 className="fs-4 fw-bold">About Our Company</h4>
                 <p className="fs-6" style={{textAlign:'justify'}}>
-                Rocketshots was instantiated on 5th Aug 2022 by Ranav ksheersagar and Likith Raj experienced pioneers of the digital world.
+                Rocketshots was instantiated on 5th Aug 2022 by Ranav kshirsagr and Likith Raj experienced pioneers of the digital world.
                 </p>
             </div>
             <div className="col-md-3 mb-3">

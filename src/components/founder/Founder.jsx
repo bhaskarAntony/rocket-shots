@@ -8,9 +8,9 @@ function Founder() {
         <div className="row">
             <div className="col-md-3">
                 <div className="founder-left p-3 py-5">
-                  <h1 className="fs-3 text-aqua fw-bold">About the Founder</h1>
+                  <h1 className="fs-3 text-aqua fw-bold">Ranav kshirsagr</h1>
                   <div className="line"></div>
-                  <h1 className="fs-4 text-white">Ranav Ksheersagar</h1>
+                  <p className="fs-4 text-aqua">Founder</p>
                  
                   {/* <h1 className="fs-4 text-white fw-bold">
                   <TypeAnimation
@@ -32,7 +32,7 @@ function Founder() {
                 />
                   </h1> */}
                   <p className="fs-6 text-white">
-                  Ranav Ksheersagar, the founder of Rocketshots, is a multifaceted professional passionate about transforming ideas into impactful realities. From crafting stunning digital experiences to empowering brands with innovative strategies, he leads Rocketshots to deliver excellence in every project.
+                  Ranav kshirsagr, the founder of Rocketshots, is a multifaceted professional passionate about transforming ideas into impactful realities. From crafting stunning digital experiences to empowering brands with innovative strategies, he leads Rocketshots to deliver excellence in every project.
                   </p>
                   <div className="line"></div>
                    {/* <p className="fs-6 text-white">

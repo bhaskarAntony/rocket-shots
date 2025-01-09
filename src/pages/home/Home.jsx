@@ -7,6 +7,7 @@ import Works from '../../components/works/Works'
 import Steps from '../../components/Steps/Steps'
 import Contact from '../../components/contact/Contact'
 import Founder from '../../components/founder/Founder'
+import Team from '../../components/founder/Team'
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
         <Works/>
         <Steps/>
         <Founder/>
+        {/* <Team/> */}
         <Contact/>
         {/* <FaqsSection/>   */}
     </div>
