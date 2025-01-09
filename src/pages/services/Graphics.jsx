@@ -3,6 +3,7 @@ import Banner from './Banner'
 import Services from './Services';
 import Companies from '../../components/clients/Clients';
 import Contact from '../../components/contact/Contact';
+import Header from '../../components/header/Header';
 
 function Graphics() {
     const data = [
@@ -40,6 +41,7 @@ function Graphics() {
       
   return (
     <section className='dark2'>
+      <Header/>
     <Banner title='Graphics Designing' subtitle='Transforming Ideas into Visual Masterpieces with Creative Graphic Design' image='https://img.freepik.com/premium-photo/graphic-designer-working-colorful-design_1284577-928.jpg?w=1060'/>
     <Services data={data} title="Graphics Designing"/>
     <Companies/>

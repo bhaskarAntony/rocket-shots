@@ -12,10 +12,12 @@ import v10 from "./v10.mp4"
 import v11 from "./v11.mp4"
 import Banner from '../services/Banner'
 import Contact from '../../components/contact/Contact'
+import Header from '../../components/header/Header'
 
 function Gallery() {
   return (
     <div className='works'>
+      <Header/>
          <Banner title='Gallery' subtitle='' image='https://img.freepik.com/premium-photo/quotphotographers-presenting-gallery-exhibitionquot_1168612-171394.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid'/>
         <section className="container-fluid p-3 p-md-5">
         <div class="row mt-5">

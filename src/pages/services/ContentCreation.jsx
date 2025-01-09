@@ -3,6 +3,7 @@ import Banner from './Banner'
 import Companies from '../../components/clients/Clients'
 import Services from './Services'
 import Contact from '../../components/contact/Contact';
+import Header from '../../components/header/Header';
 
 function ContentCreation() {
     const data = [
@@ -40,6 +41,7 @@ function ContentCreation() {
       
   return (
     <section className='dark2'>
+      <Header/>
         <Banner title='Content Creation' subtitle='Engage Your Audience with Creative and Tailored Content Solutions' image='https://img.freepik.com/free-photo/view-female-figurine-with-megaphone-womens-day-celebration_23-2151257632.jpg?t=st=1735659772~exp=1735663372~hmac=13aac40b8789554ca6aeac417939446b84a6d5dc70ecd5891ca5fa1075d74530&w=1060'/>
         <Services data={data} title='Content Creation'/>
         <Companies/>

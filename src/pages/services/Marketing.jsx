@@ -3,6 +3,7 @@ import Banner from './Banner'
 import Services from './Services';
 import Companies from '../../components/clients/Clients';
 import Contact from '../../components/contact/Contact';
+import Header from '../../components/header/Header';
 
 function Marketing() {
     const data = [
@@ -40,6 +41,7 @@ function Marketing() {
       
   return (
     <section className='dark2'>
+      <Header/>
     <Banner title='Digital Marketing' subtitle='Driving Growth and Engagement Through Strategic Digital Marketing Solutions' image='https://img.freepik.com/premium-photo/man-holding-phone-with-digital-marketing-screen_218381-4205.jpg?w=1060'/>
     
     <Services data={data} title='Digital Marketing'/>

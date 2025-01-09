@@ -4,6 +4,7 @@ import Banner from './Banner'
 import Companies from '../../components/clients/Clients';
 import Contact from '../../components/contact/Contact';
 import Services from './Services';
+import Header from '../../components/header/Header';
 
 function Development() {
     const data = [
@@ -41,6 +42,7 @@ function Development() {
       
   return (
     <section className='dark2'>
+      <Header/>
     <Banner title='Web Development' subtitle='Crafting Innovative Websites That Elevate Your Online Presence' image='https://img.freepik.com/free-photo/man-using-laptop-night-top-view-web-banner-with-copy-space_169016-53607.jpg?t=st=1735660274~exp=1735663874~hmac=c87ff6901e47c3a2da90fdd1c58a026629064d96c721698a9c68936191939856&w=1060'/>
     <Services data={data} title='Web Development'/>
     <Companies/>

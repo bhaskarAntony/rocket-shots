@@ -3,6 +3,7 @@ import Banner from './Banner'
 import Services from './Services';
 import Companies from '../../components/clients/Clients';
 import Contact from '../../components/contact/Contact';
+import Header from '../../components/header/Header';
 
 function UIUX() {
     const data = [
@@ -40,6 +41,7 @@ function UIUX() {
       
   return (
     <section className='dark2'>
+      <Header/>
     <Banner title='UI UX Designing' subtitle='Designing Intuitive and Engaging User Experiences for Seamless Interaction' image='https://img.freepik.com/premium-photo/panorama-banner-startup-company-employee-planning-user-interface-prototype-mobile-application-website-office-ux-ui-designer-brainstorm-user-friendly-interface-plan-synergic_31965-255237.jpg?w=1060'/>
     <Services data={data} title='UI UX'/>
     <Companies/>
