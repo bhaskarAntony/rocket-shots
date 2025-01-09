@@ -14,7 +14,6 @@ import Footer from './components/footer/Footer'
 import About from './pages/about/About'
 import ContactPage from './pages/contactPage/ContactPage'
 import Gallery from './pages/Gallery/Gallery'
-import Social from './pages/social_medi_reech/Social'
 
 function App() {
   useEffect(()=>{
@@ -39,7 +38,7 @@ function App() {
         <Route path='/ui-ux' element={<UIUX/>}/>
         <Route path='/contact-us' element={<ContactPage/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
-        <Route path='/social_reech' element={<Social/>}/>
+        {/* <Route path='/social_reech' element={<Social/>}/> */}
       </Routes>
       <Footer/>
     </BrowserRouter>
