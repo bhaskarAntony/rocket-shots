@@ -1,0 +1,17 @@
+.card-social{
+    background: linear-gradient(45deg, #686868, #00000067);
+    margin-bottom: 30px;
+    backdrop-filter: blur(30px);
+}
+.facebook{
+    background: linear-gradient(#0145a5a5, #033a9aa0);
+    backdrop-filter: blur(90px);
+}
+.whatsapp{
+    background: linear-gradient(#01884da5, #006739a0);
+    backdrop-filter: blur(90px);
+}
+.instagram{
+    background: linear-gradient(#d6092fa5, #f85555a0);
+    backdrop-filter: blur(90px);
+}

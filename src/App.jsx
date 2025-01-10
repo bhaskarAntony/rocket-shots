@@ -14,6 +14,11 @@ import Footer from './components/footer/Footer'
 import About from './pages/about/About'
 import ContactPage from './pages/contactPage/ContactPage'
 import Gallery from './pages/Gallery/Gallery'
+import Facebbok from './pages/social/Facebbok'
+import WhatsApp from './pages/social/Whatsapp'
+import Instagram from './pages/social/Instagram'
+import Social from './pages/social/Social'
+import Engagement from './pages/engagement/Engagement'
 
 function App() {
   useEffect(()=>{
@@ -38,7 +43,11 @@ function App() {
         <Route path='/ui-ux' element={<UIUX/>}/>
         <Route path='/contact-us' element={<ContactPage/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
-        {/* <Route path='/social_reech' element={<Social/>}/> */}
+        <Route path='/facebook' element={<Facebbok/>}/>
+        <Route path='/whatsapp' element={<WhatsApp/>}/>
+        <Route path='/instagram' element={<Instagram/>}/>
+        <Route path='/social' element={<Social/>}/>
+        <Route path='/engagement' element={<Engagement/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

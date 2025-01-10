@@ -36,8 +36,8 @@ function Header() {
       </NavDropdown>
       <NavDropdown title="Gallery" id="navbarScrollingDropdown">
         <NavDropdown.Item href="/gallery">Video Content</NavDropdown.Item>
-        <NavDropdown.Item href="/social_reech">Social Media Look</NavDropdown.Item>
-        <NavDropdown.Item href="/web/development">Engagement Status</NavDropdown.Item>
+        <NavDropdown.Item href="/social">Social Media Look</NavDropdown.Item>
+        <NavDropdown.Item href="/engagement">Engagement Status</NavDropdown.Item>
         <NavDropdown.Item href="/ui-ux">Stills</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link href="/contact-us">Contact Us</Nav.Link>

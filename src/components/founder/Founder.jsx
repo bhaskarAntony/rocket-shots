@@ -32,7 +32,7 @@ function Founder() {
                 />
                   </h1> */}
                   <p className="fs-6 text-white">
-                  Ranav kshirsagr, the founder of Rocketshots, is a multifaceted professional passionate about transforming ideas into impactful realities. From crafting stunning digital experiences to empowering brands with innovative strategies, he leads Rocketshots to deliver excellence in every project.
+                  Ranav Kshirsagr is a remarkable individual with a diverse range of talents and a strong determination to follow his passions. Despite starting his journey with a career in Mechanical Engineering and even securing a position in the Indian Navy as a UES pilot, he chose to change his path to pursue his true passion for cinema. This bold decision to follow his heart and leave behind a secure career showcases his dedication to his dreams.
                   </p>
                   <div className="line"></div>
                    {/* <p className="fs-6 text-white">
@@ -48,10 +48,10 @@ function Founder() {
             </div>
             <div className="col-md-3">
                   <div className="founder-right p-3 py-5  ">
-                    <h1 className="fs-3 fw-bold text-aqua">The Vision</h1>
+                    <h1 className="fs-3 fw-bold text-aqua">Experience</h1>
                     <div className="line"></div>
                     <p className="fs-6 text-white">
-                    Rocketshots isn’t just about services—it’s about building partnerships that drive success. Ranav’s vision is to empower businesses with cutting-edge solutions that fuel growth and innovation.
+                    His involvement in the film industry has been extensive and impressive. Working as an Associate Director for well-known names like Sadhukokila and Nandakishore has given him valuable experience and insight into the industry. 
                     </p>
                     <div className="line"></div>
                     <br />

@@ -1,0 +1,39 @@
+.e-card{
+    background: linear-gradient(45deg, #454444cc, #92fadb34) !important;
+    backdrop-filter: blur(90px);
+    border-radius: 30px !important;
+}
+.carousel-item{
+    min-height: 100vh !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 70px ;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff90;
+    backdrop-filter: blur(50px);
+    border-radius: 100px;
+    background-size: 50%;
+}
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100px !important;
+}
+.likes{
+    list-style-type: none;
+    padding: 0px;
+}
+.likes li{
+    padding: 10px 20px;
+    border: 1px solid #3ecb95;
+    font-size: 1.1rem;
+    color: #3ecb95;
+    border-radius: 100px;
+    background-color: #6adaaf36;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
