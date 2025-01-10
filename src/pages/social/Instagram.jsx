@@ -36,7 +36,7 @@ function Instagram() {
                           <div className="col-md-8 p-3" style={{background:`url(${item.image})`, backgroundSize:'cover'}}>
                             <div className="row">
                               <div className="col-md-12 m-auto">
-                              <img src={item.image} alt="" className="w-100" style={{height:'300px', objectFit:'contain'}}/>
+                              <img src={item.image} alt="" className="w-100" />
                               </div>
                             </div>
                           </div>
@@ -47,7 +47,7 @@ function Instagram() {
                                  <div className="col-md-8 p-3" style={{background:`url(${item.image})`, backgroundSize:'cover'}}>
                             <div className="row">
                               <div className="col-md-12 m-auto">
-                              <img src={item.image} alt="" className="w-100" style={{height:'300px', objectFit:'contain'}}/>
+                              <img src={item.image} alt="" className="w-100" />
                               </div>
                             </div>
                           </div>
