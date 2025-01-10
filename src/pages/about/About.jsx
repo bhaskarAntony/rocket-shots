@@ -5,6 +5,7 @@ import Banner from '../services/Banner'
 import Works from '../../components/works/Works'
 import Companies from '../../components/clients/Clients'
 import Header from '../../components/header/Header'
+import Team_Members from './Team_Members'
 
 function About() {
   return (
@@ -12,6 +13,7 @@ function About() {
       <Header/>
         <Banner title='About Us' subtitle='' image='https://img.freepik.com/free-photo/front-view-people-meeting-cup-coffee_23-2148817096.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid'/>
         <Aboutus/>
+        <Team_Members/>
         <Services/>
         <Works/>
         <Companies/>

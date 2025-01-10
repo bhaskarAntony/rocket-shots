@@ -1,0 +1,25 @@
+.member-card img{
+    height: 300px;
+    object-fit: contain;
+    /* filter: drop-shadow(5px -10px 5px #0b0b0b); */
+}
+.member-card{
+    /* background: linear-gradient( #45444431, #000000) !important; */
+    backdrop-filter: blur(90px);
+    position: relative;
+    z-index: 1;
+}
+.member-card .content{
+    background-color: #006746;
+}
+.green{
+    min-height: 20px;
+    width: 88%;
+    position: absolute;
+    background-color: #003323;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 128px;
+    z-index: -1;
+    border-radius: 200px 200px 0px 0px;
+}
