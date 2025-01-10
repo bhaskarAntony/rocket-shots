@@ -174,8 +174,8 @@ function Engagement() {
   return (
    <>
    <Header/>
-   <Banner title="Engagment Status"/>
-    <section className="container-fluid p-3 p-md-5">
+   <Banner title="Engagment Status" image='https://img.freepik.com/free-photo/happy-diverse-people-using-digital-devices_53876-96225.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid'/>
+    <section className="container-fluid p-3 p-md-5 bg-dark">
            <Carousel>
         {
             data.map((item, index)=>(

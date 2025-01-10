@@ -9,11 +9,11 @@ function Social() {
   return (
     <div>
         <Header/>
-        <Banner title='Social Media Looks' subtitle='Our All Social Media Looks Facebook, Whatsapp, Instagram' image=""/>
+        <Banner title='Social Media Looks' subtitle='Our All Social Media Looks Facebook, Whatsapp, Instagram' image="https://img.freepik.com/premium-photo/positive-multicultural-young-people-using-smartphones-collage_116547-36776.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"/>
         <div className='py-5'>
         <div className="px-3 px-md-5 py-2">
           
-        <h1 className="fs-1 fw-bold text-white">Instagram  Looks</h1>
+        <h1 className="fs-1 fw-bold text-white">Instagram Looks</h1>
         <div className="line"></div>
         </div>
         <Instagram/>

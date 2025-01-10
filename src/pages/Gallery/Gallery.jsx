@@ -13,12 +13,15 @@ import v11 from "./v11.mp4"
 import Banner from '../services/Banner'
 import Contact from '../../components/contact/Contact'
 import Header from '../../components/header/Header'
+import Youtube from './Youtube'
 
 function Gallery() {
   return (
     <div className='works'>
       <Header/>
          <Banner title='Gallery' subtitle='' image='https://img.freepik.com/premium-photo/quotphotographers-presenting-gallery-exhibitionquot_1168612-171394.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid'/>
+         <h1 className="fs-1 text-white p-3 p-md-5 py-0">Works  on Instagram</h1>
+         <div className="line"></div>
         <section className="container-fluid p-3 p-md-5">
         <div class="row mt-5">
                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
@@ -57,6 +60,7 @@ function Gallery() {
                 </div>
                 </div>
         </section>
+        <Youtube/>
         <Contact/>
 
     </div>
