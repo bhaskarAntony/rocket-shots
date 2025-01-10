@@ -6,18 +6,20 @@ import './style.css'
 
 function Instagram() {
     const data = [
+      {
+        image:poster2,
+        heading:'Instagram Look for Shree Mahalakshmi sweets'
+    },
+    {
+      image:poster3,
+      heading:'Instagram Look for Sangeetha Mobile'
+  },
         {
             image:poster1,
             heading:'Instagram Look for Dr.Rajkumar'
         },
-        {
-            image:poster2,
-            heading:'Instagram Look for Shree Mahalakshmi sweets'
-        },
-        {
-            image:poster3,
-            heading:'Instagram Look for Sangeetha Mobile'
-        }
+       
+       
     ]
   return (
     <section className='container-fluid p-3 p-md-5'>

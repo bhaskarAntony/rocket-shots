@@ -7,17 +7,19 @@ import './style.css'
 function Facebbok() {
     const data = [
         {
-            image:poster1,
-            heading:'Facebook Look for Dr. Rajkumar Academi'
+            image:poster3,
+            heading:'Facebook Look for Shree Mahalakshmi sweets'
         },
+       
         {
             image:poster2,
             heading:'Facebook Look for Sangeetha mobiles'
         },
         {
-            image:poster3,
-            heading:'Facebook Look for Shree Mahalakshmi sweets'
-        }
+            image:poster1,
+            heading:'Facebook Look for Dr. Rajkumar Academi'
+        },
+       
     ]
   return (
     <section className='container-fluid p-3 p-md-5'>
