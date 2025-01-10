@@ -30,7 +30,7 @@ function Engagement() {
             likes:12,
             comments:34,
             shares:30,
-            views:201,
+            views:'818K',
             brand:'rocketshots and nammakarnatakamemes'
         },
         {
@@ -38,7 +38,7 @@ function Engagement() {
             likes:10471,
             comments:34,
             shares:30,
-            views:201,
+            views:'701k',
             brand:'Sangeetha Mobiles'
         },
         {
@@ -46,7 +46,7 @@ function Engagement() {
             likes:4004,
             comments:34,
             shares:30,
-            views:201,
+            views:'120k',
             brand:'Dr Rajkumar Academy'
         },
         {
@@ -54,7 +54,7 @@ function Engagement() {
             likes:3520,
             comments:2,
             shares:30,
-            views:201,
+            views:'1.1M',
             brand:'Sangeethe Mobiles'
         },
         {
@@ -70,7 +70,7 @@ function Engagement() {
             likes:71271,
             comments:34,
             shares:30,
-            views:201,
+            views:'11.1M',
             brand:'Sangeethe Mobiles'
         },
        
@@ -79,7 +79,7 @@ function Engagement() {
             likes:2141,
             comments:34,
             shares:30,
-            views:201,
+            views:'20.4M',
             brand:'Sri Mahalakshmi Sweets'
         },
         {
@@ -87,7 +87,7 @@ function Engagement() {
             likes:56284,
             comments:34,
             shares:30,
-            views:201,
+            views:'473K',
             brand:'Sri Mahalakshmi Sweets'
         },
         {
@@ -95,7 +95,7 @@ function Engagement() {
             likes:1350,
             comments:34,
             shares:30,
-            views:201,
+            views:'47.8K',
             brand:'Donne Biriyani Palace'
         },
         {
@@ -103,7 +103,7 @@ function Engagement() {
             likes:33132,
             comments:34,
             shares:30,
-            views:201,
+            views:'380K',
             brand:'Donne Biriyani Palace'
         },
         {
@@ -111,7 +111,7 @@ function Engagement() {
             likes:14543,
             comments:34,
             shares:30,
-            views:201,
+            views:'121K',
             brand:'rocketshots and nammakarnatakamemes'
         },
         {
@@ -119,7 +119,7 @@ function Engagement() {
             likes:12,
             comments:34,
             shares:30,
-            views:201,
+            views:'672K',
             brand:'Rocketshots and Anchor Anushree'
         },
         {
@@ -127,7 +127,7 @@ function Engagement() {
             likes:55074,
             comments:34,
             shares:30,
-            views:201,
+            views:'548K',
             brand:'Sri Mahalakshmi Sweets'
         },
         {
@@ -135,7 +135,7 @@ function Engagement() {
             likes:11320,
             comments:34,
             shares:30,
-            views:201,
+            views:'144K',
             brand:'GoliBlast'
         },
         {
@@ -151,7 +151,7 @@ function Engagement() {
             likes:83907,
             comments:34,
             shares:30,
-            views:201,
+            views:'1M',
             brand:'Golden Star Ganesh'
         },
         {
@@ -159,7 +159,7 @@ function Engagement() {
             likes:451537,
             comments:34,
             shares:30,
-            views:201,
+            views:'9.9M',
             brand:'Kiccha Sudeepa'
         },
         {
@@ -167,7 +167,7 @@ function Engagement() {
             likes:33617,
             comments:34,
             shares:30,
-            views:201,
+            views:'713K',
             brand:'Payal Changappa'
         }
     ]
@@ -180,10 +180,13 @@ function Engagement() {
         {
             data.map((item, index)=>(
                 <Carousel.Item>
-              <div className="row e-card p-3 p-md-5">
+             <div className="e-card">
+             <div className="row  p-3 p-md-5">
                 <div className="col-md-3 mb-3">
                     <h1 className="fs-1 fw-bold text-white">{item.brand}</h1>
                     <div className="line"></div>
+
+                    <button className="btn btn-light rounded-pill p-3 px-4 text-aqua">View On Instagram</button>
                 </div>
                 <div className="col-md-6 mb-3">
                 <img src={item.image} alt="" />
@@ -196,11 +199,17 @@ function Engagement() {
                     <h1 className="fs-1 text-aqua">Engagment</h1>
                     <div className="line"></div>
                     <ul className="likes">
-                        <li>{item.likes} likes</li>
+                        <li><i class="bi bi-hand-thumbs-up"></i> {item.likes} likes</li>
+                        <li><i class="bi bi-eye"></i> {item.views} Views</li>
                     </ul>
+                 
                 </div>
               </div>
-      </Carousel.Item>
+              <center clas>
+                
+              </center>
+             </div>
+                 </Carousel.Item>
             ))
         }
      

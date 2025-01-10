@@ -3,6 +3,7 @@ import Banner from './Banner'
 import Services from './Services';
 import Companies from '../../components/clients/Clients';
 import Contact from '../../components/contact/Contact';
+import Header from '../../components/header/Header';
 
 function Branding() {
     const data = [
@@ -40,8 +41,9 @@ function Branding() {
       
   return (
    <div>
-     <Banner title='Branding & Advartisment' subtitle='Building Strong Brands and Captivating Audiences with Impactful Advertising' image='https://img.freepik.com/free-photo/disposable-paper-cup-notepad-trendy-color-viva-magenta_169016-52257.jpg?t=st=1735660904~exp=1735664504~hmac=423be60412e3d7670d2fcf67ffec292f3ce86be732a3aa7728968d2a8ec21985&w=1060'/>
-    <Services data={data} title='Branding and Advartising'/>
+    <Header/>
+     <Banner title='Branding and Advertising' subtitle='Building Strong Brands and Captivating Audiences with Impactful Advertising' image='https://img.freepik.com/premium-photo/digital-revolution-honoring-social-media-day_1007543-15180.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid'/>
+    <Services data={data} title='Branding and Advertising'/>
     <Companies/>
     <Contact/>
    </div>
