@@ -6,6 +6,10 @@ import './style.css'
 
 function WhatsApp() {
     const data = [
+      {
+        image:poster3,
+        heading:'Whatsapp Look for Azaleos'
+    },
         {
             image:poster1,
             heading:'Whatsapp Look for Friends Carzone'
@@ -14,10 +18,7 @@ function WhatsApp() {
             image:poster2,
             heading:'Whatsapp Look for Q and A'
         },
-        {
-            image:poster3,
-            heading:'Whatsapp Look for Azaleos'
-        }
+       
     ]
   return (
     <section className='container-fluid p-3 p-md-5'>
