@@ -58,6 +58,7 @@ import dewars from '../../assets/images/dewars.png'
 import skimnner from '../../assets/images/Skinner logo.jpg'
 import friendCarZone from '../../assets/images/fonts car zon.jpg'
 import axaleos from '../../assets/images/azaleos.png'
+import athletic from '../../assets/images/Main-Logo-Color.png'
 
 function Companies({click}) {
     const companyData = [
@@ -88,6 +89,7 @@ function Companies({click}) {
         c22,
         c23,
         c24,
+        athletic,
         c25,
         c26,
         c27,
