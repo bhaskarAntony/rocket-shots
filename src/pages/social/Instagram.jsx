@@ -18,7 +18,7 @@ function Instagram() {
   },
         {
             image:poster1,
-            heading:'Instagram Look for Dr.Rajkumar',
+            heading:'Instagram Look for Dr.Rajkumar Academy',
             link:'https://www.instagram.com/drrajkumaracademy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
         },
        

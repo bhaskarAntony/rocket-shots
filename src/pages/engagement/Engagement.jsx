@@ -206,7 +206,7 @@ function Engagement() {
                                     <img src={item.image} alt={item.brand} />
                                 </div>
                                 <div className="col-md-3 mb-3">
-                                    <h1 className="fs-1 text-aqua">Engagement</h1>
+                                    <h1 className="fs-1 text-white">Engagement</h1>
                                     <div className="line"></div>
                                     <ul className="likes">
                                         <li>

@@ -17,7 +17,7 @@ function Collabrations() {
     const data = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11];
   return (
    <section className="container-fluid p-3 p-md-5 collabrators">
-    <h1 className="fs-1 fw-bold text-white text-center my-4 mb-5">Our Collbrators</h1>
+    <h1 className="fs-1 fw-bold text-white text-center my-4 mb-5">Our Collaborators</h1>
         <div className="row">
             {
                 data.map((item, index)=>(

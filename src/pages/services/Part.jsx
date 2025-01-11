@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import './style.css'
 import m1 from '../../assets/movie/044b9f46229891.584c7ac23368e.jpg'
 import m2 from '../../assets/movie/1600x1200_MasterPiece_17358_75f3c1bc-ceb7-4f73-8d97-eca583376832.jpg'
@@ -30,21 +30,36 @@ import m27 from '../../assets/movie/yuvaratna-yuvarathnaa-photos-images-2131.jpg
 
 
 function Part() {
-    const data = [m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16, m17, m18, m19, m20, m21, m22, m23, m24, m25, m26, m27]
-    const scrollContainer = useRef(null) // Ref for scrollable container
+    const data = [m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16, m17, m18, m19, m20, m21, m22, m23, m24, m25, m26, m27];
+    const scrollContainer = useRef(null); // Ref for scrollable container
+    const autoSlideInterval = useRef(null); // Ref for interval to clear it when necessary
 
+    // Scroll to the next set of items
     const handleNext = () => {
-        scrollContainer.current.scrollBy({ left: 250, behavior: 'smooth' })
-    }
+        scrollContainer.current.scrollBy({ left: 250, behavior: 'smooth' });
+    };
 
+    // Scroll to the previous set of items
     const handlePrev = () => {
-        scrollContainer.current.scrollBy({ left: -250, behavior: 'smooth' })
-    }
+        scrollContainer.current.scrollBy({ left: -250, behavior: 'smooth' });
+    };
+
+    // Auto slide function
+    useEffect(() => {
+        autoSlideInterval.current = setInterval(() => {
+            handleNext(); // Auto-scroll forward every 3 seconds
+        }, 3000);
+
+        // Clean up the interval when the component unmounts
+        return () => clearInterval(autoSlideInterval.current);
+    }, []);
 
     return (
         <section className="container-fluid p-3 p-md-5 movie-works">
-            <h1 className="fs-1 fw-bold text-white text-center"><span className="text-aqua">FILMS</span> WE HAVE BEEN PART OF...</h1>
-            
+            <h1 className="fs-1 fw-bold text-white text-center">
+                <span className="text-aqua">FILMS</span> WE HAVE BEEN PART OF...
+            </h1>
+
             <div className="d-flex justify-content-between mb-3">
                 <button className="btn btn-light" onClick={handlePrev}>
                     <i className="bi bi-arrow-left-circle"></i> Prev
@@ -53,6 +68,7 @@ function Part() {
                     Next <i className="bi bi-arrow-right-circle"></i>
                 </button>
             </div>
+
             <div
                 className="d-flex overflow-auto"
                 ref={scrollContainer}
@@ -82,7 +98,7 @@ function Part() {
                 ))}
             </div>
         </section>
-    )
+    );
 }
 
-export default Part
+export default Part;

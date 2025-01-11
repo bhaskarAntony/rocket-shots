@@ -19,7 +19,7 @@ function Facebbok() {
         },
         {
             image:poster1,
-            heading:'Dr. Rajkumar Academi',
+            heading:'Dr. Rajkumar Academy',
             link:'https://www.facebook.com/share/15n17jvCN8/'
         },
        
