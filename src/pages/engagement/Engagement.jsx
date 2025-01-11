@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css'
 import { Carousel } from 'react-bootstrap'
 import e1 from '../../assets/engagement/New Project 10 [CD2EF65]~2.png'
@@ -21,9 +21,18 @@ import e17 from '../../assets/engagement/New Project 28.png'
 import e18 from '../../assets/engagement/New Project 9 [1A93D67]~3.png'
 import Banner from '../services/Banner'
 import Header from '../../components/header/Header'
-
+import CountUp from 'react-countup'
+const formatViews = (views) => {
+    if (typeof views === 'string' && (views.toUpperCase()).includes('K')) {
+        return { value: parseFloat(views) * 1000, suffix: 'K' }
+    } else if (typeof views === 'string' && views.includes('M')) {
+        return { value: parseFloat(views) * 1000000, suffix: 'M' }
+    }
+    return { value: views, suffix: '' }
+}
 
 function Engagement() {
+    const [activeIndex, setActiveIndex] = useState(0) // Track active slide index
     const data = [
         {
             image:e1,
@@ -171,51 +180,59 @@ function Engagement() {
             brand:'Payal Changappa'
         }
     ]
-  return (
-   <>
-   <Header/>
-   <Banner title="Engagment Status" image='https://img.freepik.com/free-photo/happy-diverse-people-using-digital-devices_53876-96225.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid'/>
-    <section className="container-fluid p-3 p-md-5 bg-dark">
-           <Carousel>
-        {
-            data.map((item, index)=>(
-                <Carousel.Item>
-             <div className="e-card">
-             <div className="row  p-3 p-md-5">
-                <div className="col-md-3 mb-3">
-                    <h1 className="fs-1 fw-bold text-white">{item.brand}</h1>
-                    <div className="line"></div>
 
-                    <button className="btn btn-light rounded-pill p-3 px-4 text-aqua">View On Instagram</button>
-                </div>
-                <div className="col-md-6 mb-3">
-                <img src={item.image} alt="" />
-                    {/* <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption> */}
-                </div>
-                <div className="col-md-3 mb-3">
-                    <h1 className="fs-1 text-aqua">Engagment</h1>
-                    <div className="line"></div>
-                    <ul className="likes">
-                        <li><i class="bi bi-hand-thumbs-up"></i> {item.likes} likes</li>
-                        <li><i class="bi bi-eye"></i> {item.views} Views</li>
-                    </ul>
-                 
-                </div>
-              </div>
-              <center clas>
-                
-              </center>
-             </div>
-                 </Carousel.Item>
-            ))
-        }
-     
-    </Carousel>
+    
+  return (
+    <>
+    <Header />
+    <Banner
+        title="Engagement Status"
+        image="https://img.freepik.com/free-photo/happy-diverse-people-using-digital-devices_53876-96225.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid"
+    />
+    <section className="container-fluid p-3 p-md-5 bg-dark">
+        <Carousel onSelect={(selectedIndex) => setActiveIndex(selectedIndex)}>
+            {data.map((item, index) => {
+                const { value, suffix } = formatViews(item.views) // Format views
+                return (
+                    <Carousel.Item key={index}>
+                        <div className="e-card">
+                            <div className="row p-3 p-md-5">
+                                <div className="col-md-3 mb-3">
+                                    <h1 className="fs-1 fw-bold text-white">{item.brand}</h1>
+                                    <div className="line"></div>
+                                    <button className="btn btn-light rounded-pill p-3 px-4 text-aqua">View On Instagram</button>
+                                </div>
+                                <div className="col-md-6 mb-3">
+                                    <img src={item.image} alt={item.brand} />
+                                </div>
+                                <div className="col-md-3 mb-3">
+                                    <h1 className="fs-1 text-aqua">Engagement</h1>
+                                    <div className="line"></div>
+                                    <ul className="likes">
+                                        <li>
+                                            <i className="bi bi-eye"></i>{' '}
+                                            {activeIndex === index && (
+                                                <CountUp end={value} duration={1.5} separator="," />
+                                            )}
+                                            {suffix} Views
+                                        </li>
+                                        <li>
+                                            <i className="bi bi-hand-thumbs-up"></i>{' '}
+                                            {activeIndex === index && (
+                                                <CountUp end={item.likes} duration={1.5} separator="," />
+                                            )}  Likes
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                )
+            })}
+        </Carousel>
     </section>
-   </>
+</>
   )
 }
 

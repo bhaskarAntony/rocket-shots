@@ -8,15 +8,18 @@ function Instagram() {
     const data = [
       {
         image:poster2,
-        heading:'Instagram Look for Shree Mahalakshmi sweets'
+        heading:'Instagram Look for Shree Mahalakshmi sweets',
+        link:'https://www.instagram.com/shreemahalakshmi_sweets?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
       image:poster3,
-      heading:'Instagram Look for Sangeetha Mobile'
+      heading:'Instagram Look for Sangeetha Mobile',
+      link:'https://www.instagram.com/sangeetha.mobiles?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
   },
         {
             image:poster1,
-            heading:'Instagram Look for Dr.Rajkumar'
+            heading:'Instagram Look for Dr.Rajkumar',
+            link:'https://www.instagram.com/drrajkumaracademy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
         },
        
        
@@ -33,7 +36,7 @@ function Instagram() {
                             <div className="row" data-aos="fade-left">
                             <div className="col-md-4 instagram p-3 p-md-5">
                               <h1 className='fs-1 fw-bold text-white'>{item.heading}</h1>
-                              <a href="" className='btn btn-light p-2 fs-5 px-4 rounded-pill mt-3'>View Profile</a>
+                              <a href={item.link} className='btn btn-light p-2 fs-5 px-4 rounded-pill mt-3'>View Profile</a>
                           </div>
                           <div className="col-md-8 p-3" style={{background:`url(${item.image})`, backgroundSize:'cover'}}>
                             <div className="row">

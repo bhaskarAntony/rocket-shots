@@ -4,7 +4,7 @@ import { Card, Row, Col } from 'react-bootstrap';
 const Services = ({data, title}) => {
   return (
     <div className="container-fluid p-3 p-md-5">
-        <h1 className="display-3 text-center text-white my-5 fw-bold">Our <span className="text-aqua">{title}</span> Expertise</h1>
+        <h1 className="fs-1 text-center text-white my-5 fw-bold">Our <span className="text-aqua">{title}</span> Expertise</h1>
         <div className="line"></div>
         <br />
         <Row>

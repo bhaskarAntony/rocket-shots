@@ -21,7 +21,7 @@ function Contact() {
   return (
     <section className="container-fluid p-3 p-md-5 bg-dark">
         <p className="fs-5 text-center text-main mt-3 text-aqua" data-aos="fade-up">Contact us</p>
-        <h1 className="fs-1 fw-bold text-center mb-5 text-white" data-aos="fade-up">Your Growth Starts Here <br /> Get in Touch Today</h1>
+        <h1 className="fs-1 fw-bold text-center mb-5 text-white" data-aos="fade-up">Your Company Starts an <span className="text-aqua">Rocket journey</span> to <br /> space one you get in touch here</h1>
         <div className="row">
             <div className="col-md-5">
                 <div className="contact-card p-3 py-5 rounded-4 mb-3  dark2 text-white" data-aos="flip-left">

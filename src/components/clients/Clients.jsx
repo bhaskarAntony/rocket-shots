@@ -60,6 +60,7 @@ import friendCarZone from '../../assets/images/fonts car zon.jpg'
 import axaleos from '../../assets/images/azaleos.png'
 import athletic from '../../assets/images/Main-Logo-Color.png'
 
+
 function Companies({click}) {
     const companyData = [
         // c1,

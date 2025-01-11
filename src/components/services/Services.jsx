@@ -5,25 +5,6 @@ function Services() {
     const data = [
         {
             icon:'',
-            title:'Digital Marketing',
-            description:'In the ever-evolving digital landscape, we help your business stay ahead with our comprehensive digital marketing strategies.',
-            image:'https://img.freepik.com/free-photo/map-lying-wooden-table_53876-105723.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid',
-            link:'/marketing'
-        },
-        // {
-        //     icon:'',
-        //     title:'Web & App Development',
-        //     description:'Tempore corrupti temporibus fuga earum asperiores fugit laudantium.'
-        // },
-        {
-            icon:'',
-            title:'Graphic Design',
-            description:'Our talented graphic designers transform your ideas into compelling visuals that make a lasting impact.',
-            image:'https://img.freepik.com/free-vector/graphic-design-colorful-geometrical-lettering_52683-34588.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid',
-            link:'/graphic-designing'
-        },
-        {
-            icon:'',
             title:'Content creation ',
             description:'Compelling content is the cornerstone of successful online marketing.',
             image:'https://img.freepik.com/free-photo/closeup-computer-laptop-screen-showing-ideas-wooden-table_53876-16088.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid',
@@ -43,7 +24,27 @@ function Services() {
             image:'https://img.freepik.com/free-vector/gradient-ui-ux-elements-background_23-2149056159.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid',
             link:'/ui-ux'
         },
+       
+        // {
+        //     icon:'',
+        //     title:'Web & App Development',
+        //     description:'Tempore corrupti temporibus fuga earum asperiores fugit laudantium.'
+        // },
         {
+            icon:'',
+            title:'Graphic Design',
+            description:'Our talented graphic designers transform your ideas into compelling visuals that make a lasting impact.',
+            image:'https://img.freepik.com/free-vector/graphic-design-colorful-geometrical-lettering_52683-34588.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid',
+            link:'/graphic-designing'
+        },
+        {
+            icon:'',
+            title:'Digital Marketing',
+            description:'In the ever-evolving digital landscape, we help your business stay ahead with our comprehensive digital marketing strategies.',
+            image:'https://img.freepik.com/free-photo/map-lying-wooden-table_53876-105723.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid',
+            link:'/marketing'
+        },
+               {
             icon:'',
             title:'Event management ',
             description:'our services encompass a wide range of activities and responsibilities, all of which are geared toward the successful execution of the event.',

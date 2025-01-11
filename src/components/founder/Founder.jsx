@@ -32,7 +32,7 @@ function Founder() {
                 />
                   </h1> */}
                   <p className="fs-6 text-white">
-                  Ranav Kshirsagr is a remarkable individual with a diverse range of talents and a strong determination to follow his passions. Despite starting his journey with a career in Mechanical Engineering and even securing a position in the Indian Navy as a UES pilot, he chose to change his path to pursue his true passion for cinema. This bold decision to follow his heart and leave behind a secure career showcases his dedication to his dreams.
+                  <span className="text-aqua">RANAV KSHIRSAGR</span> is a remarkable individual with a diverse range of talents and a strong determination to follow his passions. Despite starting his journey with a career in Mechanical Engineering and even securing a position in the Indian Navy as a UES pilot, he chose to change his path to pursue his true passion for cinema. This bold decision to follow his heart and leave behind a secure career showcases his dedication to his dreams.
                   </p>
                   <div className="line"></div>
                    {/* <p className="fs-6 text-white">

@@ -8,3 +8,40 @@
     justify-content: center;
     background-attachment: fixed !important;
 }
+.collabrators{
+    background:linear-gradient(#00000073, #000), url(https://img.freepik.com/free-photo/view-black-white-theatre-seating_23-2151184637.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid) no-repeat center;
+    background-size: cover;
+}
+.collabrators .c-card{
+    background: linear-gradient(45deg, #ffffffb2,#151515eb, #ababab9d);
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+}
+.c-card img{
+    filter: drop-shadow(3px 4px 5px #000000);
+}
+
+ .a-card{
+    background: linear-gradient(45deg, #273c30b2,#7cedb275, #4a4a4a1b);
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+.brands{
+    background: linear-gradient(#00000030, #000), url(https://img.freepik.com/free-vector/minimalist-black-luxury-cylinder-podium_107791-31870.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid) no-repeat center;
+    background-size: cover;
+}
+.movie-works{
+    background: linear-gradient(#00000030, #000), url(https://img.freepik.com/free-vector/spotlight-black-curtain_107791-25739.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid) no-repeat center;
+    background-size: cover;
+}
+.movie-works *::-webkit-scrollbar{
+    display: none;
+}
+.icon-card{
+    background-color: #000;
+    border-radius: 20px;
+}
+.icon-card:hover{
+    background-color: #023a26;
+}

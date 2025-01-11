@@ -13,26 +13,31 @@ function Social() {
         <div className='py-5'>
         <div className="px-3 px-md-5 py-2">
           
-        <h1 className="fs-1 fw-bold text-white">Instagram Looks</h1>
+        <h1 className="fs-1 fw-bold text-white"><span className="text-danger"><i class="bi bi-instagram"></i> Instagram</span> Looks</h1>
         <div className="line"></div>
         </div>
         <Instagram/>
             <br />
-        <div className="px-3 px-md-5 py-2">
-          
-          <h1 className="fs-1 fw-bold text-white">Whatsapp Looks</h1>
-          <div className="line"></div>
-          </div>
+      
 
-          <WhatsApp/>
-            <br />
           <div className="px-3 px-md-5 py-2">
           
-          <h1 className="fs-1 fw-bold text-white">Facebook Looks</h1>
+          <h1 className="fs-1 fw-bold text-white"><span className="text-primary"><i class="bi bi-facebook"></i> Facebook</span> Looks</h1>
           <div className="line"></div>
           </div>
 
           <Facebbok/>
+          <br />
+
+          <div className="px-3 px-md-5 py-2">
+          
+          <h1 className="fs-1 fw-bold text-white"><span className="text-success"><i class="bi bi-whatsapp"></i> Whatsapp</span> Looks</h1>
+          <div className="line"></div>
+          </div>
+          <br />
+          <WhatsApp/>
+            <br />
+        
     </div>
     </div>
   )
