@@ -16,11 +16,11 @@ function Instagram() {
       heading:'Instagram Look for Sangeetha Mobile',
       link:'https://www.instagram.com/sangeetha.mobiles?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
   },
-        {
+  {
             image:poster1,
             heading:'Instagram Look for Dr.Rajkumar Academy',
             link:'https://www.instagram.com/drrajkumaracademy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
-        },
+        }
        
        
     ]
