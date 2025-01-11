@@ -138,16 +138,12 @@ function About() {
         {/* <Aboutus/> */}
         <Who/>
         <Why/>
-        <div className="container bg-dark p-4 p-md-3 rounded">
+        <div className="container bg-dark p-4 p-md-3 rounded mb-4">
             <p className="fs-5 text-aqua">
             Our goal is to provide you with the highest quality of service and to help you reach your digital goals. We are dedicated to helping you every step of the way and will make sure that your digital presence is a success.
 
             </p>
         </div>
-        <Team_Members/>
-        {/* <Services/> */}
-        {/* <Works/> */}
-        {/* <Companies/> */}
         <section className="container-fluid p-3 p-md-5 bg-dark">
           <h1 className="fs-1 fw-bold my-4 text-white text-center">Our <span className="text-aqua">Brands</span></h1>
           <div className="line"></div>
@@ -163,6 +159,11 @@ function About() {
               }
             </div>
         </section>
+        <Team_Members/>
+        {/* <Services/> */}
+        {/* <Works/> */}
+        {/* <Companies/> */}
+    
     </section>
   )
 }
