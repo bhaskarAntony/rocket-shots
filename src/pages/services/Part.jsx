@@ -15,7 +15,7 @@ import m12 from '../../assets/movie/MV5BY2U4MDRlOGQtMTFmYS00NmQzLTlhYjMtMTFiZWNm
 import m13 from '../../assets/movie/MV5BYzE2YTQ1N2YtNzgwNS00ODYyLWE0ZDMtNDFiYTI1OGNhNmJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
 import m14 from '../../assets/movie/MV5BZTRhODExY2MtNDAwNC00YmE0LTk5MmItNGUwZDU1MDUyYzNjXkEyXkFqcGc@._V1_.jpg'
 import m15 from '../../assets/movie/P_HO00004474.jpg'
-import m16 from '../../assets/movie/Screenshot_20250110-233049~2.png'
+import m16 from '../../assets/movie/24.jpg'
 import m17 from '../../assets/movie/Shravani-Subramanya-Kannada-Movie-DVD.jpg'
 import m18 from '../../assets/movie/This-May-Be-The-New-Release-Date-Of--RRR---1642673662-1886.jpg'
 import m19 from '../../assets/movie/james-photos-images-75025.jpg'

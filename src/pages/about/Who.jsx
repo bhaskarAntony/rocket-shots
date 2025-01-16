@@ -10,8 +10,7 @@ function Who() {
         <div className="col-md-7">
             <h1 className="fs-1 fw-bold text-aqua">Who are we ?</h1>
             <p className="fs-5 text-white">
-            <span className="text-aqua">Rocketshots</span> was instantiated on  5th Aug  2022 by Rakshit ksheersagr and  Likith Raj experienced pioneers of the digital world. We at  Rocket shots provide world-class quality to our client content and uplift their Digital paradigm by bringing the best in class talents to work together and deliver engaging content to transforming your ideas into reality
-
+            <span className="text-aqua">Rocketshots</span> was instantiated on  5th Aug  2022 by Ranav kshirsagr and  Likith Raj experienced pioneers of the digital world. We at  Rocket shots provide world-class quality to our client content and uplift their Digital paradigm by bringing the best in class talents to work together and deliver engaging content to transforming your ideas into reality
             </p>
         </div>
     </div>

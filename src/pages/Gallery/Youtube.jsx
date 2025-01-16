@@ -48,7 +48,7 @@ function Youtube() {
 
   return (
     <section className="container-fluid p-3 p-md-5">
-      <h1 className="fs-1 fw-bold text-white">Works On YouTube</h1>
+      <h1 className="fs-1 fw-bold text-white">More Works</h1>
       <div className="line mb-4"></div>
       <div className="row g-4">
         {youtubeLinks.map((video, index) => (

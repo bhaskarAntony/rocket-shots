@@ -8,7 +8,7 @@ function ServiceIcons() {
         { icon: "bi-person", title: "Personal Branding" },
         { icon: "bi-pencil", title: "Branding & Rebranding Process" },
         { icon: "bi-camera-video", title: "Shoot & Model Management" },
-        { icon: "bi-laptop", title: "Website" },
+        // { icon: "bi-laptop", title: "Website" },
         { icon: "bi-google", title: "Paid Media Ads" },
         { icon: "bi-people", title: "All Kinds of Outdoor Campaigns & Promotions" },
         { icon: "bi-music-note", title: "FM" },

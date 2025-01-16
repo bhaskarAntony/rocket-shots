@@ -19,6 +19,7 @@ import WhatsApp from './pages/social/Whatsapp'
 import Instagram from './pages/social/Instagram'
 import Social from './pages/social/Social'
 import Engagement from './pages/engagement/Engagement'
+import Ranav from './pages/induvidual/Ranav'
 
 function App() {
   useEffect(()=>{
@@ -48,6 +49,7 @@ function App() {
         <Route path='/instagram' element={<Instagram/>}/>
         <Route path='/social' element={<Social/>}/>
         <Route path='/engagement' element={<Engagement/>}/>
+        <Route path='/portfolio/ranav' element={<Ranav/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

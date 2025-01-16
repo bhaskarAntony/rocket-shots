@@ -20,7 +20,7 @@ function Gallery() {
     <div className='works'>
       <Header/>
          <Banner title='Gallery' subtitle='' image='https://img.freepik.com/premium-photo/quotphotographers-presenting-gallery-exhibitionquot_1168612-171394.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid'/>
-         <h1 className="fs-1 text-white p-3 p-md-5 py-0">Works  on Instagram</h1>
+         <h1 className="fs-1 text-white p-3 p-md-5 py-0">Our Works</h1>
          <div className="line"></div>
         <section className="container-fluid p-3 p-md-5">
         <div class="row mt-5">

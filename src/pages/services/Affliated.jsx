@@ -59,7 +59,7 @@ function Affliated() {
     <div className="line"></div>
     <div className="row">
         <div className="col-md-4 instagram d-flex align-items-center justify-content-center rounded-3">
-            <h1 className='fs-1 text-white fw-bold'>Affliated Marketing Pages</h1>
+            <h1 className='fs-1 text-white fw-bold'>Affliated Troll Pages</h1>
         </div>
         <div className="col-md-8">
             <img src={i1} alt="" className="w-100 rounded-3" />
@@ -73,7 +73,7 @@ function Affliated() {
         </div>
 
         <div className="col-md-4 facebook d-flex align-items-center justify-content-center rounded-3">
-            <h1 className='fs-1 text-white fw-bold'>Affliated Marketing Pages</h1>
+            <h1 className='fs-1 text-white fw-bold'>Affliated Meme Pages</h1>
         </div>
     </div>
 

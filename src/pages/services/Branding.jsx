@@ -66,6 +66,7 @@ function Branding() {
         </div>
     </div>
    </section>
+   <ServiceIcons/>
      <Collabrations/>
      <Part/>
      <Services data={data} title='Branding and Advertising'/>
@@ -73,7 +74,7 @@ function Branding() {
      
   
     <Companies/>
-    <ServiceIcons/>
+    
     <Contact/>
    </div>
   )

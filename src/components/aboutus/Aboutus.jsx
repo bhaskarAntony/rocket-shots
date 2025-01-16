@@ -32,7 +32,7 @@ function Aboutus() {
                 </div>
             </div>
             <div className="col-md-6 text-white">
-                <h1 className="fs-3 mb-3" data-aos="fade-up">About Us</h1>
+                <a href="/about-us" className="fs-3 mb-3 about-text nav-link" data-aos="fade-up">About Us</a>
                 <h1 className=" display-5 fw-bold text-aqua mb-3" data-aos="fade-up">We are more than just <br />
                 a digital agency.</h1>
                 <p className="fs-6" data-aos="fade-down">Rocketshots was instantiated on  5th Aug  2022 by Ranav kshirsagr and  Likith Raj experienced pioneers of the digital world. We at  Rocket shots provide world-class quality to our client content and uplift their Digital paradigm by bringing the best in class talents to work together and deliver engaging content to transforming your ideas into reality

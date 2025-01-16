@@ -9,7 +9,7 @@ function Facebbok() {
         {
             image:poster1,
             heading:' Shree Mahalakshmi sweets',
-            link:'https://www.facebook.com/share/1HKYnc4ZGm/'
+            link:'https://www.facebook.com/share/17tJ9r8kcV/?mibextid=wwXIfr'
         },
        
         {
@@ -38,7 +38,7 @@ function Facebbok() {
                               <h1 className='fs-1 fw-bold text-white'>{item.heading}</h1>
                               <a href={item.link} target='_blank' className='btn btn-light p-2 fs-5 px-4 rounded-pill mt-3'>View Profile</a>
                           </div>
-                          <div className="col-md-8 p-3" style={{background:`url(${item.image})`, backgroundSize:'cover'}}>
+                          <div className="col-md-8">
                             <div className="row">
                               <div className="col-md-12 m-auto">
                               <img src={item.image} alt="" className="w-100" />
@@ -49,7 +49,7 @@ function Facebbok() {
                         </div>
                         ):(
                             <div className="row" data-aos="fade-right">
-                                 <div className="col-md-8 p-3" style={{background:`url(${item.image})`, backgroundSize:'cover'}}>
+                                 <div className="col-md-8" >
                             <div className="row">
                               <div className="col-md-12 m-auto">
                               <img src={item.image} alt="" className="w-100" />

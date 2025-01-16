@@ -40,11 +40,11 @@ function Team_Members() {
             position:'Senior Editor',
             name:'Abhishek'
         },
-        // {
-        //     image:bhaskar_image,
-        //     position:'Senior Developer',
-        //     name:'Bhaskar Antony'
-        // }
+        {
+            image:bhaskar_image,
+            position:'Senior Developer',
+            name:'Bhaskar Antony'
+        }
     ]
   return (
    <section className="container-fluid p-3 p-md-5 dark2">

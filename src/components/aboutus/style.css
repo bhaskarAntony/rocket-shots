@@ -3,3 +3,7 @@ p{
     line-height: 1.7;
     /* letter-spacing: 0.1px; */
 }
+.about-text:hover{
+    color: #65a874 !important;
+
+}

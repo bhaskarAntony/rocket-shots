@@ -5,7 +5,7 @@ function Why() {
     <section className="container-fluid p-3 p-md-5">
         <div className="row">
             <div className="col-md-7">
-                <h1 className="fs-1 fw-bold text-white">What , <span className="text-aqua">why</span> and how </h1>.
+                <h1 className="fs-1 fw-bold text-white">What , <span className="text-aqua">Why</span> and How </h1>.
                 <p className="fs-5 text-white">
                 <span className="text-aqua">Rocketshots</span> is your one-stop solution for all your Digital needs We offer a comprehensive suite of digital marketing services designed to meet your business objectives. Our team of experts provide customized solutions that are tailored to your specific needs. We specialize in creating and maintaining digital content, managing social media campaigns, product and brand digital marketing, search engine optimization, and more. We have the experience and expertise to help you get the most out of your digital strategies..  
 

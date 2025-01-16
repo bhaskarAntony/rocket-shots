@@ -8,7 +8,7 @@ function Founder() {
         <div className="row">
             <div className="col-md-3">
                 <div className="founder-left p-3 py-5">
-                  <h1 className="fs-3 text-aqua fw-bold">RANAV KSHIRSAGR </h1>
+                  <a href='/portfolio/ranav' className="fs-3 text-aqua fw-bold">RANAV KSHIRSAGR </a>
                   <div className="line"></div>
                   <p className="fs-4 text-aqua">Founder</p>
                  

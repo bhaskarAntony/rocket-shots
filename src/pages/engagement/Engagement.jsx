@@ -2,23 +2,23 @@ import React, { useState } from 'react'
 import './style.css'
 import { Carousel } from 'react-bootstrap'
 import e1 from '../../assets/engagement/New Project 10 [CD2EF65]~2.png'
-import e2 from '../../assets/engagement/New Project 12.png'
-import e3 from '../../assets/engagement/New Project 13 [523107C]~2.png'
+import e2 from './2.png'
+import e3 from './3.png'
 import e4 from '../../assets/engagement/New Project 14 [ABCE1A7]~2.png'
 import e5 from '../../assets/engagement/New Project 15 [2208888]~2.png'
 import e6 from '../../assets/engagement/New Project 16 [0D570D5]~2.png'
 import e7 from '../../assets/engagement/New Project 17 [7DF0AAD]~2.png'
-import e8 from '../../assets/engagement/New Project 19.png'
-import e9 from '../../assets/engagement/New Project 20 [841C1A2]~2.png'
-import e10 from '../../assets/engagement/New Project 21 [09332F2]~2.png'
+import e8 from './8.png'
+import e9 from './9.png'
+import e10 from './10.png'
 import e11 from '../../assets/engagement/New Project 22 [B0C404D]~2.png'
-import e12 from '../../assets/engagement/New Project 23 [FFCD1E6]~2.png'
-import e13 from '../../assets/engagement/New Project 242.png'
+import e12 from './12.png'
+import e13 from './13.png'
 import e14 from '../../assets/engagement/New Project 25 [80D0BBC]~2.png'
-import e15 from '../../assets/engagement/New Project 26.png'
+import e15 from './15.png'
 import e16 from '../../assets/engagement/New Project 27.png'
-import e17 from '../../assets/engagement/New Project 28.png'
-import e18 from '../../assets/engagement/New Project 9 [1A93D67]~3.png'
+import e17 from './17.png'
+import e18 from './18.png'
 import Banner from '../services/Banner'
 import Header from '../../components/header/Header'
 import CountUp from 'react-countup'
@@ -36,23 +36,23 @@ function Engagement() {
     const data = [
         {
             image:e1,
-            likes:12,
+            likes:450172,
             comments:34,
-            shares:30,
+            shares:'17.3k',
             views:'818K',
-            brand:'rocketshots and nammakarnatakamemes'
+            brand:'Sangeetha Mobiles'
         },
         {
             image:e2,
-            likes:10471,
+            likes:100400,
             comments:34,
-            shares:30,
-            views:'701k',
+            shares:'450+',
+            views:'706k',
             brand:'Sangeetha Mobiles'
         },
         {
             image:e3,
-            likes:4004,
+            likes:4100,
             comments:34,
             shares:30,
             views:'120k',
@@ -64,32 +64,32 @@ function Engagement() {
             comments:2,
             shares:30,
             views:'1.1M',
-            brand:'Sangeethe Mobiles'
+            brand:'Sangeetha Mobiles'
         },
         {
             image:e5,
             likes:213524,
             comments:34,
             shares:30,
-            views:201,
-            brand:'Sangeethe Mobiles'
+            views:'11.1M',
+            brand:'Sangeetha Mobiles'
         },
         {
             image:e6,
             likes:71271,
             comments:34,
             shares:30,
-            views:'11.1M',
-            brand:'Sangeethe Mobiles'
+            views:'20.4M',
+            brand:'Sangeetha Mobiles'
         },
        
         {
             image:e7,
-            likes:2141,
+            likes:2200,
             comments:34,
             shares:30,
-            views:'20.4M',
-            brand:'Sri Mahalakshmi Sweets'
+            views:'108k',
+            brand:'Shree Mahalakshmi Sweets'
         },
         {
             image:e8,
@@ -97,11 +97,11 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'473K',
-            brand:'Sri Mahalakshmi Sweets'
+            brand:'Shree Mahalakshmi Sweets'
         },
         {
             image:e9,
-            likes:1350,
+            likes:1580,
             comments:34,
             shares:30,
             views:'47.8K',
@@ -121,11 +121,11 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'121K',
-            brand:'rocketshots and nammakarnatakamemes'
+            brand:'Rocketshots'
         },
         {
             image:e12,
-            likes:12,
+            likes:57578,
             comments:34,
             shares:30,
             views:'672K',
@@ -137,7 +137,7 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'548K',
-            brand:'Sri Mahalakshmi Sweets'
+            brand:'Shree Mahalakshmi Sweets'
         },
         {
             image:e14,
@@ -145,15 +145,15 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'144K',
-            brand:'GoliBlast'
+            brand:'Shivanna and GoliBlast'
         },
         {
             image:e15,
-            likes:12,
+            likes:40200,
             comments:34,
-            shares:30,
-            views:201,
-            brand:'PV Cinemas'
+            shares:2200,
+            views:5345,
+            brand:'PVR Cinemas and Golden Star Ganesh'
         },
         {
             image:e16,
@@ -169,7 +169,7 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'9.9M',
-            brand:'Kiccha Sudeepa'
+            brand:'Kiccha Sudeepa sir'
         },
         {
             image:e18,
@@ -177,7 +177,7 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'713K',
-            brand:'Payal Changappa'
+            brand:'Sangeetha Mobiles'
         }
     ]
 
@@ -198,6 +198,7 @@ function Engagement() {
                         <div className="e-card">
                             <div className="row p-3 p-md-5">
                                 <div className="col-md-3 mb-3">
+                                    <p className="fs-4 text-aqua">Client Name</p>
                                     <h1 className="fs-1 fw-bold text-white">{item.brand}</h1>
                                     <div className="line"></div>
                                     <button className="btn btn-light rounded-pill p-3 px-4 text-aqua">View On Instagram</button>
