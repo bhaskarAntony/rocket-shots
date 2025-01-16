@@ -32,8 +32,8 @@
     background-size: cover;
 }
 .movie-works{
-    background: linear-gradient(#00000030, #000), url(https://img.freepik.com/free-vector/spotlight-black-curtain_107791-25739.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid) no-repeat center;
-    background-size: cover;
+    /* background: linear-gradient(#00000030, #000), url(https://img.freepik.com/free-vector/spotlight-black-curtain_107791-25739.jpg?ga=GA1.1.1538238808.1729515699&semt=ais_hybrid) no-repeat center;
+    background-size: cover; */
 }
 .movie-works *::-webkit-scrollbar{
     display: none;

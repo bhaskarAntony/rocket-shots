@@ -53,7 +53,7 @@ function Part() {
     }, []);
 
     return (
-        <section className="container-fluid p-3 p-md-5 movie-works">
+        <section className="container-fluid p-3 p-md-5 movie-works companies">
             <h1 className="fs-1 fw-bold text-white text-center">
                 <span className="text-aqua">FILMS</span> WE HAVE BEEN PART OF...
             </h1>
