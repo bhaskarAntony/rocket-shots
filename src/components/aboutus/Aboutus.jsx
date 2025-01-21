@@ -41,8 +41,8 @@ function Aboutus() {
                     <div className="row">
                         {
                             data.map((item, index)=>(
-                               <div className="col-md-4 mb-3">
-                                 <div data-aos="zoom-in" className="about-card p-3 card text-center d-flex flex-column justify-content-center align-items-center h-100 dark2 text-white gap-3">
+                               <div className="col-md-4 mb-3 p-2">
+                                 <div data-aos="zoom-in"  className="about-card p-3 rounded text-center d-flex flex-column justify-content-center align-items-center h-100 dark2 text-white gap-3">
                                     <i className={`bi bi-${item.icon} fs-1 text-aqua`}></i>
                                     <h4 className="fs-6">{item.title}</h4>
                                 </div>

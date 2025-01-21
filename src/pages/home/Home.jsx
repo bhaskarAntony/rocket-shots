@@ -25,9 +25,9 @@ function Home() {
         <Works/>
         <Steps/>
         <Founder/>
+        <Slider/>
         {/* <Team/> */}
         <Contact/>
-        <Slider/>
         {/* <FaqsSection/>   */}
     </div>
   )
