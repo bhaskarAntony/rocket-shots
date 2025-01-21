@@ -19,6 +19,7 @@ import e15 from './15.png'
 import e16 from '../../assets/engagement/New Project 27.png'
 import e17 from './17.png'
 import e18 from './18.png'
+import e19 from './friend.png'
 import Banner from '../services/Banner'
 import Header from '../../components/header/Header'
 import CountUp from 'react-countup'
@@ -40,7 +41,8 @@ function Engagement() {
             comments:34,
             shares:'17.3k',
             views:'818K',
-            brand:'Sangeetha Mobiles'
+            brand:'Sangeetha Mobiles',
+            link:'https://www.instagram.com/reel/CziTvMcx1vl/?igsh=MTZzMGRjbGxsb2Y2Zg=='
         },
         {
             image:e2,
@@ -48,7 +50,8 @@ function Engagement() {
             comments:34,
             shares:'450+',
             views:'706k',
-            brand:'Sangeetha Mobiles'
+            brand:'Sangeetha Mobiles',
+            link:'https://www.instagram.com/reel/C3AA53Kreyy/?igsh=MTl0eG1vN2ljaXQzaA=='
         },
         {
             image:e3,
@@ -56,7 +59,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'120k',
-            brand:'Dr Rajkumar Academy'
+            brand:'Dr Rajkumar Academy',
+            link:'https://www.instagram.com/reel/CldqmJcAwIU/?igsh=MWltcmN1cTBsN2llYQ=='
         },
         {
             image:e4,
@@ -64,7 +68,8 @@ function Engagement() {
             comments:2,
             shares:30,
             views:'1.1M',
-            brand:'Sangeetha Mobiles'
+            brand:'Sangeetha Mobiles',
+            link:'https://www.instagram.com/reel/C-0k9v0SCW3/?igsh=MW8za3R1dmpvd20wdw=='
         },
         {
             image:e5,
@@ -72,7 +77,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'11.1M',
-            brand:'Sangeetha Mobiles'
+            brand:'Sangeetha Mobiles',
+            link:'https://www.instagram.com/reel/C-kiTQUSfXO/?igsh=dHd4aGtiZDN0M2Fi'
         },
         {
             image:e6,
@@ -80,7 +86,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'20.4M',
-            brand:'Sangeetha Mobiles'
+            brand:'Sangeetha Mobiles',
+            link:'https://www.instagram.com/reel/DAuzrhPy8aw/?igsh=eGxyaHdibTZ0ajFl'
         },
        
         {
@@ -89,7 +96,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'108k',
-            brand:'Shree Mahalakshmi Sweets'
+            brand:'Shree Mahalakshmi Sweets',
+            link:'https://www.instagram.com/reel/Cg1mMmgB-_U/?igsh=MW55bGZyYmh0ZnJseg=='
         },
         {
             image:e8,
@@ -97,7 +105,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'473K',
-            brand:'Shree Mahalakshmi Sweets'
+            brand:'Shree Mahalakshmi Sweets',
+            link:'https://www.instagram.com/reel/C2HDr5_LKMG/?igsh=MWNseWIxOGh0dmw4eg=='
         },
         {
             image:e9,
@@ -105,7 +114,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'47.8K',
-            brand:'Donne Biriyani Palace'
+            brand:'Donne Biriyani Palace',
+            link:'https://www.instagram.com/reel/CxIsS8JLsIR/?igsh=MThmaTNhcXY0MHpxdA=='
         },
         {
             image:e10,
@@ -113,7 +123,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'380K',
-            brand:'Donne Biriyani Palace'
+            brand:'Donne Biriyani Palace',
+            link:'https://www.instagram.com/reel/C43cNDtyhdb/?igsh=OGwydnNib2d0dThz'
         },
         {
             image:e11,
@@ -121,7 +132,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'121K',
-            brand:'Rocketshots'
+            brand:'Rocketshots',
+            link:''
         },
         {
             image:e12,
@@ -129,7 +141,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'672K',
-            brand:'Rocketshots and Anchor Anushree'
+            brand:'Rocketshots and Anchor Anushree',
+            link:'https://www.instagram.com/reel/Cm25SGhIXU4/?igsh=MTQ4azc3OGN0cDNjeA=='
         },
         {
             image:e13,
@@ -137,7 +150,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'548K',
-            brand:'Shree Mahalakshmi Sweets'
+            brand:'Shree Mahalakshmi Sweets',
+            link:'https://www.instagram.com/reel/CwWxudQI3DF/?igsh=MTNxejg4NDdseGJnaA=='
         },
         {
             image:e14,
@@ -145,7 +159,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'144K',
-            brand:'Shivanna and GoliBlast'
+            brand:'Shivanna and GoliBlast',
+            link:'https://www.instagram.com/reel/DCJGfl8vaBF/?igsh=MXNqaDY4d21uMGdsbQ=='
         },
         {
             image:e15,
@@ -153,7 +168,8 @@ function Engagement() {
             comments:34,
             shares:2200,
             views:5345,
-            brand:'PVR Cinemas and Golden Star Ganesh'
+            brand:'PVR Cinemas and Golden Star Ganesh',
+            link:'https://www.instagram.com/share/reel/BAG3n38Ok_'
         },
         {
             image:e16,
@@ -161,7 +177,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'1M',
-            brand:'Golden Star Ganesh'
+            brand:'Golden Star Ganesh',
+            link:'https://www.instagram.com/share/reel/BAZra7Jg_c'
         },
         {
             image:e17,
@@ -169,7 +186,8 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'9.9M',
-            brand:'Kiccha Sudeepa sir'
+            brand:'Kiccha Sudeepa sir',
+            link:'https://www.instagram.com/share/reel/BAIoWkzq7R'
         },
         {
             image:e18,
@@ -177,7 +195,17 @@ function Engagement() {
             comments:34,
             shares:30,
             views:'713K',
-            brand:'Sangeetha Mobiles'
+            brand:'Sangeetha Mobiles',
+            link:'https://www.instagram.com/reel/CybD5ufP0ZL/?igsh=MTNra242eWg1emNmbQ=='
+        },
+        {
+            image:e19,
+            likes:17210,
+            comments:34,
+            shares:30,
+            views:'257K',
+            brand:'Shree Mahalakshmi Sweets',
+            link:'https://www.instagram.com/reel/Cvl9YrJOqzQ/?igsh=aWpnNXh5enI5YThh'
         }
     ]
 
@@ -201,7 +229,7 @@ function Engagement() {
                                     <p className="fs-4 text-aqua">Client Name</p>
                                     <h1 className="fs-1 fw-bold text-white">{item.brand}</h1>
                                     <div className="line"></div>
-                                    <button className="btn btn-light rounded-pill p-3 px-4 text-aqua">View On Instagram</button>
+                                    <a href={item.link} className="btn btn-light rounded-pill p-3 px-4 text-aqua" style={{zIndex:'1020'}}>View On Instagram</a>
                                 </div>
                                 <div className="col-md-6 mb-3">
                                     <img src={item.image} alt={item.brand} />

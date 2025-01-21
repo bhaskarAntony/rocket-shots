@@ -20,6 +20,7 @@ import Instagram from './pages/social/Instagram'
 import Social from './pages/social/Social'
 import Engagement from './pages/engagement/Engagement'
 import Ranav from './pages/induvidual/Ranav'
+import Likith from './pages/induvidual/Likith'
 
 function App() {
   useEffect(()=>{
@@ -50,6 +51,7 @@ function App() {
         <Route path='/social' element={<Social/>}/>
         <Route path='/engagement' element={<Engagement/>}/>
         <Route path='/portfolio/ranav' element={<Ranav/>}/>
+        <Route path='/portfolio/likith' element={<Likith/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

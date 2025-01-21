@@ -9,6 +9,7 @@ import Contact from '../../components/contact/Contact'
 import Founder from '../../components/founder/Founder'
 import Team from '../../components/founder/Team'
 import Part from '../services/Part'
+import Slider from '../../components/slider/Slider'
 
 function Home() {
   return (
@@ -26,7 +27,7 @@ function Home() {
         <Founder/>
         {/* <Team/> */}
         <Contact/>
-        {/* <Slider/> */}
+        <Slider/>
         {/* <FaqsSection/>   */}
     </div>
   )

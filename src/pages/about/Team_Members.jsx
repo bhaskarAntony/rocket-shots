@@ -6,7 +6,6 @@ import image3 from '../../components/founder/vikas.png'
 import image4 from '../../components/founder/adarsh.png' 
 import image5 from './1000191944-removebg-preview.png'
 import abhishek from './abhishek.png';
-import bhaskar_image from './bhaskar.png'
 
 function Team_Members() {
     const data = [
@@ -18,7 +17,8 @@ function Team_Members() {
         {
             image:image2,
             position:'Co-Founder',
-            name:'Likith Raj'
+            name:'Likith Raj',
+            link:'/portfolio/likith'
         },
         {
             image:image3,
@@ -39,11 +39,6 @@ function Team_Members() {
             image:abhishek,
             position:'Senior Editor',
             name:'Abhishek'
-        },
-        {
-            image:bhaskar_image,
-            position:'Senior Developer',
-            name:'Bhaskar Antony'
         }
     ]
   return (
@@ -54,7 +49,8 @@ function Team_Members() {
             {
                data.map((item, index)=>(
                 <div className="col-md-3 mb-4">
-                <div className="member-card p-3">
+               <a href={item.link} className="nav-link">
+               <div className="member-card p-3">
                     <img src={item.image} alt={item.name} className="w-100" />
                     <div className="green"></div>
                     <div className="content text-center text-white p-3">
@@ -64,6 +60,7 @@ function Team_Members() {
                         {item.position}
                     </p>
                 </div>
+               </a>
                 </div>
                ))
             }
