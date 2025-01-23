@@ -15,7 +15,8 @@ function Team_Members() {
         {
             image:image1,
             position:'Founder',
-            name:'Ranav Kshirsagr'
+            name:'Ranav Kshirsagr',
+             link:'/portfolio/ranav'
         },
         {
             image:image2,
@@ -36,30 +37,34 @@ function Team_Members() {
         },
         {
             image:image5,
-            position:'Branding and advertising Head',
-            name:'Shashank udupa',
+            position:'Branding and Advertising Head',
+            name:'Shashank Udupa',
             link:'/portfolio/shashank'
         },
         {
             image:abhishek,
             position:'Senior Editor',
-            name:'Abhishek'
+            name:'Abhishek',
+             link:'/portfolio/abhishek'
         },
         {
             image:govind,
-            position:'Creative curator',
-            name:'GovindRaj J'
+            position:'Creative Curator',
+            name:'GovindRaj J',
+             link:'/portfolio/govindhraj'
         },
         {
             image:sumanth,
-            position:'Content reator',
-            name:'Sumanth Ram'
+            position:'Content Creator',
+            name:'Sumanth Ram',
+             link:'/portfolio/sumanth'
         },
        
         {
             image:ajay,
             position:'Editor',
-            name:'Ajay kumar Shinde'
+            name:'Ajay kumar Shinde',
+             link:'/portfolio/ajay'
         }
     ]
   return (

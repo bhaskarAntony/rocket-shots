@@ -24,6 +24,10 @@ import Likith from './pages/induvidual/Likith'
 import Stills from './pages/stilles/Stills'
 import Vikas from './pages/induvidual/Vikas'
 import Shashank from './pages/induvidual/Shashank'
+import Abhishek from './pages/induvidual/Abhishek'
+import Govindh from './pages/induvidual/Govind'
+import Sumanth from './pages/induvidual/Sumanth'
+import Ajay from './pages/induvidual/Ajay'
 
 function App() {
   useEffect(()=>{
@@ -57,6 +61,10 @@ function App() {
         <Route path='/portfolio/likith' element={<Likith/>}/>
         <Route path='/portfolio/vikas' element={<Vikas/>}/>
         <Route path='/portfolio/shashank' element={<Shashank/>}/>
+        <Route path='/portfolio/abhishek' element={<Abhishek/>}/>
+        <Route path='/portfolio/govindhraj' element={<Govindh/>}/>
+        <Route path='/portfolio/sumanth' element={<Sumanth/>}/>
+        <Route path='/portfolio/ajay' element={<Ajay/>}/>
         <Route path='/stills' element={<Stills/>}/>
       </Routes>
       <Footer/>

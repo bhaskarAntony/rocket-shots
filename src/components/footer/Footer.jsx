@@ -38,7 +38,8 @@ function Footer() {
                     <li><a href="/graphic-designing">Graphic Designing</a></li>
                     <li><a href="/web/development">Website Development</a></li>
                     <li><a href="/ui-ux">UI/UX</a></li>
-                    <li><a href="/branding">Branding & Advartisment</a></li>
+                    <li><a href="/branding">Branding & 
+                    Advertisement</a></li>
                 </ul>
             </div>
         </div>
