@@ -6,6 +6,9 @@ import Contact from '../../components/contact/Contact';
 import Services from './Services';
 import Header from '../../components/header/Header';
 import WebDevelopmentServices from './WebDevelopmentServices';
+import i1 from './SPORTI - Senior Police Officers Research and Training Institute - Google Chrome 14-10-2024 16_39_16.png'
+import i2 from './SPORTI Services - Accommodation, Conference Halls, Dining - Google Chrome 23-01-2025 11_12_41.png'
+import i3 from './SPORTI Services - Accommodation, Conference Halls, Dining - Google Chrome 23-01-2025 11_13_03.png'
 
 function Development() {
     const data = [
@@ -40,6 +43,9 @@ function Development() {
           icon: "bi bi-bar-chart"
         }
       ];
+      const idata = [
+        i1, i2, i3
+      ]
       
   return (
     <section className='dark2'>
