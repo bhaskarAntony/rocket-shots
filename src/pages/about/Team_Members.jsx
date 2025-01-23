@@ -44,15 +44,16 @@ function Team_Members() {
             name:'Abhishek'
         },
         {
-            image:sumanth,
-            position:'Content reator',
-            name:'Sumanth Ram'
-        },
-        {
             image:govind,
             position:'Creative curator',
             name:'GovindRaj J'
         },
+        {
+            image:sumanth,
+            position:'Content reator',
+            name:'Sumanth Ram'
+        },
+       
         {
             image:ajay,
             position:'Editor',
