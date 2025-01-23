@@ -29,7 +29,7 @@ function Header() {
       <NavDropdown title="Services" id="navbarScrollingDropdown">
         <NavDropdown.Item href="/content/creation">Content Creation</NavDropdown.Item>
         <NavDropdown.Item href="/web/development">Web Development</NavDropdown.Item>
-        <NavDropdown.Item href="/branding">Branding and advertising</NavDropdown.Item>
+        <NavDropdown.Item href="/branding">Branding and Advertisement</NavDropdown.Item>
         <NavDropdown.Item href="/graphic-designing">Graphic designing</NavDropdown.Item>
         <NavDropdown.Item href="/marketing">Digital marketing</NavDropdown.Item>
         <NavDropdown.Item href="/ui-ux">UI/UX</NavDropdown.Item>
@@ -38,7 +38,7 @@ function Header() {
         <NavDropdown.Item href="/gallery">Video Content</NavDropdown.Item>
         <NavDropdown.Item href="/social">Social Media Look</NavDropdown.Item>
         <NavDropdown.Item href="/engagement">Engagement Status</NavDropdown.Item>
-        <NavDropdown.Item href="/ui-ux">Stills</NavDropdown.Item>
+        <NavDropdown.Item href="/stills">Stills</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link href="/contact-us">Contact Us</Nav.Link>
 
@@ -68,7 +68,7 @@ function Header() {
             <li className='fs-4'>Services</li>
             <li><a href="/content/creation">Content Creation</a></li>
             <li><a href="/web/development">Web Development</a></li>
-            <li><a href="/branding">Branding and advertising</a></li>
+            <li><a href="/branding">Branding and Advertisement</a></li>
             <li><a href="/graphic-designing">Graphic Designing</a></li>
             <li><a href="/marketing">Digital Marketing</a></li>
             <li><a href="/ui-ux">UI UX</a></li>

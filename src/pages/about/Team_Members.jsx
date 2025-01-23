@@ -5,6 +5,9 @@ import image2 from '../../components/founder/likith1.png'
 import image3 from '../../components/founder/vikas.png' 
 import image4 from '../../components/founder/adarsh.png' 
 import image5 from './1000191944-removebg-preview.png'
+import sumanth from './ee/sumanth.png'
+import govind from './ee/govind.png'
+import ajay from './ee/ajay.png'
 import abhishek from './abhishek.png';
 
 function Team_Members() {
@@ -39,6 +42,21 @@ function Team_Members() {
             image:abhishek,
             position:'Senior Editor',
             name:'Abhishek'
+        },
+        {
+            image:sumanth,
+            position:'Content reator',
+            name:'Sumanth Ram'
+        },
+        {
+            image:govind,
+            position:'Creative curator',
+            name:'GovindRaj J'
+        },
+        {
+            image:ajay,
+            position:'Editor',
+            name:'Ajay kumar Shinde'
         }
     ]
   return (
