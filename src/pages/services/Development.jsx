@@ -53,6 +53,19 @@ function Development() {
     <Banner title='Web Development' subtitle='Crafting Innovative Websites That Elevate Your Online Presence' image='https://img.freepik.com/free-photo/man-using-laptop-night-top-view-web-banner-with-copy-space_169016-53607.jpg?t=st=1735660274~exp=1735663874~hmac=c87ff6901e47c3a2da90fdd1c58a026629064d96c721698a9c68936191939856&w=1060'/>
     <Services data={data} title='Web Development'/>
     {/* <WebDevelopmentServices/> */}
+    <section className="p-3 p-md-5">
+      <h1 className="text-center text-white fw-bold">Our Works</h1>
+      <div className="line"></div>
+      <div className="row">
+        {
+          idata.map((item, index)=>(
+            <div className="col-md-6 mb-3">
+              <img src={item} alt="" className="w-100" />
+            </div>
+          ))
+        }
+      </div>
+    </section>
     <Companies/>
     <Contact/>
 </section>

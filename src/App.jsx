@@ -23,6 +23,7 @@ import Ranav from './pages/induvidual/Ranav'
 import Likith from './pages/induvidual/Likith'
 import Stills from './pages/stilles/Stills'
 import Vikas from './pages/induvidual/Vikas'
+import Shashank from './pages/induvidual/Shashank'
 
 function App() {
   useEffect(()=>{
@@ -55,6 +56,7 @@ function App() {
         <Route path='/portfolio/ranav' element={<Ranav/>}/>
         <Route path='/portfolio/likith' element={<Likith/>}/>
         <Route path='/portfolio/vikas' element={<Vikas/>}/>
+        <Route path='/portfolio/shashank' element={<Shashank/>}/>
         <Route path='/stills' element={<Stills/>}/>
       </Routes>
       <Footer/>

@@ -26,7 +26,8 @@ function Team_Members() {
         {
             image:image3,
             position:'Managing Director',
-            name:'Vikas V Angadi'
+            name:'Vikas V Angadi',
+           link:'/portfolio/vikas'
         },
         {
             image:image4,
@@ -36,7 +37,8 @@ function Team_Members() {
         {
             image:image5,
             position:'Branding and advertising Head',
-            name:'Shashank udupa'
+            name:'Shashank udupa',
+            link:'/portfolio/shashank'
         },
         {
             image:abhishek,
