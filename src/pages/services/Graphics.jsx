@@ -53,6 +53,194 @@ function Graphics() {
         <meta property="og:url" content="https://www.rocketshots.in/graphic-designing" />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://www.rocketshots.in/graphic-designing" />
+        <script type="application/ld+json">
+      {
+        `
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Rocketshots",
+        "url": "https://www.rocketshots.in",
+        "logo": "https://www.rocketshots.in/static/media/logo.4cf713867c4bf18024cb.png",
+        "sameAs": [
+          "https://www.instagram.com/rocketshots",
+          "https://www.facebook.com/rocketshots",
+          "https://www.linkedin.com/company/rocketshots-in",
+          "https://twitter.com/rocketshots_in",
+          "https://www.youtube.com/@rocketshotsentertainment"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91 9740007832",
+          "contactType": "Customer Service",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Level 15, UB City, Concorde Towers, 1, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001",
+          "addressLocality": "Bangalore",
+          "addressRegion": "Karnataka",
+          "postalCode": "560001",
+          "addressCountry": "IN"
+        },
+        "description": "Rocketshots is a leading agency specializing in content creation, branding, advertising, digital marketing, and event management services in Bangalore, Karnataka. We help businesses grow their digital presence and achieve outstanding results."
+        `
+      }
+      </script>
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.rocketshots.in/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About Us",
+                "item": "https://www.rocketshots.in/about-us"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Content Creation",
+                "item": "https://www.rocketshots.in/content/creation"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Web Development",
+                "item": "https://www.rocketshots.in/web/development"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Branding",
+                "item": "https://www.rocketshots.in/branding"
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "name": "Graphic Designing",
+                "item": "https://www.rocketshots.in/graphic-designing"
+              },
+              {
+                "@type": "ListItem",
+                "position": 7,
+                "name": "Marketing",
+                "item": "https://www.rocketshots.in/marketing"
+              },
+              {
+                "@type": "ListItem",
+                "position": 8,
+                "name": "UI/UX Design",
+                "item": "https://www.rocketshots.in/ui-ux"
+              },
+              {
+                "@type": "ListItem",
+                "position": 9,
+                "name": "Contact Us",
+                "item": "https://www.rocketshots.in/contact-us"
+              },
+              {
+                "@type": "ListItem",
+                "position": 10,
+                "name": "Gallery",
+                "item": "https://www.rocketshots.in/gallery"
+              },
+              {
+                "@type": "ListItem",
+                "position": 11,
+                "name": "Facebook",
+                "item": "https://www.rocketshots.in/facebook"
+              },
+              {
+                "@type": "ListItem",
+                "position": 12,
+                "name": "WhatsApp",
+                "item": "https://www.rocketshots.in/whatsapp"
+              },
+              {
+                "@type": "ListItem",
+                "position": 13,
+                "name": "Instagram",
+                "item": "https://www.rocketshots.in/instagram"
+              },
+              {
+                "@type": "ListItem",
+                "position": 14,
+                "name": "Social",
+                "item": "https://www.rocketshots.in/social"
+              },
+              {
+                "@type": "ListItem",
+                "position": 15,
+                "name": "Engagement",
+                "item": "https://www.rocketshots.in/engagement"
+              },
+              {
+                "@type": "ListItem",
+                "position": 16,
+                "name": "Portfolio - Ranav",
+                "item": "https://www.rocketshots.in/portfolio/ranav"
+              },
+              {
+                "@type": "ListItem",
+                "position": 17,
+                "name": "Portfolio - Likith",
+                "item": "https://www.rocketshots.in/portfolio/likith"
+              },
+              {
+                "@type": "ListItem",
+                "position": 18,
+                "name": "Portfolio - Vikas",
+                "item": "https://www.rocketshots.in/portfolio/vikas"
+              },
+              {
+                "@type": "ListItem",
+                "position": 19,
+                "name": "Portfolio - Shashank",
+                "item": "https://www.rocketshots.in/portfolio/shashank"
+              },
+              {
+                "@type": "ListItem",
+                "position": 20,
+                "name": "Portfolio - Abhishek",
+                "item": "https://www.rocketshots.in/portfolio/abhishek"
+              },
+              {
+                "@type": "ListItem",
+                "position": 21,
+                "name": "Portfolio - Govindhraj",
+                "item": "https://www.rocketshots.in/portfolio/govindhraj"
+              },
+              {
+                "@type": "ListItem",
+                "position": 22,
+                "name": "Portfolio - Sumanth",
+                "item": "https://www.rocketshots.in/portfolio/sumanth"
+              },
+              {
+                "@type": "ListItem",
+                "position": 23,
+                "name": "Portfolio - Ajay",
+                "item": "https://www.rocketshots.in/portfolio/ajay"
+              },
+              {
+                "@type": "ListItem",
+                "position": 24,
+                "name": "Stills",
+                "item": "https://www.rocketshots.in/stills"
+              }
+            ]
+          }
+        `}
+      </script>
       </Helmet>
 
       <Header />
