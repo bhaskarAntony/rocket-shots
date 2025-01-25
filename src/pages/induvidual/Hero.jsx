@@ -23,7 +23,7 @@ function Hero({title, subtitle, image}) {
             <div className="m1 mt-4 col-md-6 d-flex align-items-center justify-content-end p-0 h-100 flex-column">
             <div className="blur"></div>
 
-                <img src={image} alt="" className="w-75 mb-0" style={{transform:'translateY(75px)'}}/>
+                <img src={image} alt="rocketshots bangalore" className="w-75 mb-0" style={{transform:'translateY(75px)'}}/>
                 
             </div>
         </div>

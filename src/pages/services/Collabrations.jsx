@@ -28,7 +28,7 @@ function Collabrations() {
                 data.map((item, index)=>(
                     <div className="col-md-2">
                         <div className="c-card p-3">
-                            <img src={item} alt="" className="w-100" style={{height:'100px', objectFit:'contain'}} />
+                            <img src={item} alt="rocketshots bangalore" className="w-100" style={{height:'100px', objectFit:'contain'}} />
                         </div>
                     </div>
                 ))

@@ -41,7 +41,7 @@ function WhatsApp() {
                               {
                                 data.map((item, index)=>(
                                   <div className="col-md-4">
-                                     <img src={item.image} alt="" className="w-100" style={{height:'400px', objectFit:'contain'}}/>
+                                     <img src={item.image} alt="rocketshots bangalore" className="w-100" style={{height:'400px', objectFit:'contain'}}/>
                                   </div>
                                 ))
                               }

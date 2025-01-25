@@ -67,6 +67,7 @@ import axaleos from '../../assets/images/azaleos.png'
 import athletic from '../../assets/images/Main-Logo-Color.png'
 import Who from './Who'
 import Why from './Why'
+import { Helmet } from 'react-helmet'
 
 
    
@@ -133,17 +134,28 @@ function About() {
 ];
   return (
     <section>
+       <Helmet>
+        <title>About Us - Rocketshots | Digital Marketing, Web Development, and UI/UX Design Experts</title>
+        <meta name="description" content="Discover Rocketshots, a leading digital agency providing top-notch digital marketing, web development, graphics designing and UI/UX design services. Learn about our mission, vision, and expertise." />
+        <meta name="keywords" content="about us, digital marketing,  web development, graphics designing, UI/UX design, branding, digital agency, design solutions, innovative marketing" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="About Us - Rocketshots | Digital Marketing, Web Development, and UI/UX Design Experts" />
+        <meta property="og:description" content="Learn about Rocketshots, a full-service digital agency offering expert digital marketing, web development, and UI/UX design services to help your business grow." />
+        <meta property="og:image" content="https://img.freepik.com/free-photo/front-view-people-meeting-cup-coffee_23-2148817096.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid" />
+        <meta property="og:url" content="https://www.rocketshots.in/about-us" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.rocketshots.in/about-us" />
+      </Helmet>
       <Header/>
-        <Banner title='About Us' subtitle='' image='https://img.freepik.com/free-photo/front-view-people-meeting-cup-coffee_23-2148817096.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid'/>
+      <Banner title="About Us - Rocketshots" subtitle="Learn More About Rocketshots: A Digital Agency Focused on Helping You Achieve Success in the Digital World with Innovative Marketing, Web Development, and Design Solutions" image="https://img.freepik.com/free-photo/front-view-people-meeting-cup-coffee_23-2148817096.jpg?ga=GA1.1.1471963966.1728382128&semt=ais_hybrid" />
         {/* <Aboutus/> */}
         <Who/>
         <Why/>
         <div className="container bg-dark p-4 p-md-3 rounded mb-4">
-            <p className="fs-5 text-aqua">
-            Our goal is to provide you with the highest quality of service and to help you reach your digital goals. We are dedicated to helping you every step of the way and will make sure that your digital presence is a success.
-
-            </p>
-        </div>
+        <p className="fs-5 text-aqua">
+          We are dedicated to providing our clients with the highest quality digital marketing, web development, and UI/UX design services to help them reach their digital goals. Our mission is to make your digital presence a success through innovation and expertise.
+        </p>
+      </div>
         <section className="container-fluid p-3 p-md-5 bg-dark">
           <h1 className="fs-1 fw-bold my-4 text-white text-center">Our <span className="text-aqua">Brands</span></h1>
           <div className="line"></div>

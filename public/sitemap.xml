@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.rocketshots.in/</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://www.rocketshots.in/about-us</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Content Creation -->
+  <url>
+    <loc>https://www.rocketshots.in/content/creation</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Web Development -->
+  <url>
+    <loc>https://www.rocketshots.in/web/development</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Branding -->
+  <url>
+    <loc>https://www.rocketshots.in/branding</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Graphic Designing -->
+  <url>
+    <loc>https://www.rocketshots.in/graphic-designing</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Marketing -->
+  <url>
+    <loc>https://www.rocketshots.in/marketing</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- UI/UX -->
+  <url>
+    <loc>https://www.rocketshots.in/ui-ux</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Us -->
+  <url>
+    <loc>https://www.rocketshots.in/contact-us</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gallery -->
+  <url>
+    <loc>https://www.rocketshots.in/gallery</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Social Media -->
+  <url>
+    <loc>https://www.rocketshots.in/facebook</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rocketshots.in/whatsapp</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rocketshots.in/instagram</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rocketshots.in/social</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Portfolio Pages -->
+  <url>
+    <loc>https://www.rocketshots.in/portfolio/ranav</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rocketshots.in/portfolio/likith</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rocketshots.in/portfolio/vikas</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rocketshots.in/portfolio/shashank</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rocketshots.in/portfolio/abhishek</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rocketshots.in/portfolio/govindhraj</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rocketshots.in/portfolio/sumanth</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rocketshots.in/portfolio/ajay</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Stills -->
+  <url>
+    <loc>https://www.rocketshots.in/stills</loc>
+    <lastmod>2025-01-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

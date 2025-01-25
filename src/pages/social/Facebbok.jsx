@@ -41,7 +41,7 @@ function Facebbok() {
                           <div className="col-md-8">
                             <div className="row">
                               <div className="col-md-12 m-auto">
-                              <img src={item.image} alt="" className="w-100" />
+                              <img src={item.image} alt="rocketshots bangalore" className="w-100" />
                               </div>
                             </div>
                           </div>
@@ -52,7 +52,7 @@ function Facebbok() {
                                  <div className="col-md-8" >
                             <div className="row">
                               <div className="col-md-12 m-auto">
-                              <img src={item.image} alt="" className="w-100" />
+                              <img src={item.image} alt="rocketshots bangalore" className="w-100" />
                               </div>
                             </div>
                           </div>

@@ -88,7 +88,7 @@ function Part() {
                     >
                         <img
                             src={item}
-                            alt=""
+                            alt="rocketshots bangalore"
                             className="w-100 h-100 rounded"
                             style={{ objectFit: 'cover' }}
                         />

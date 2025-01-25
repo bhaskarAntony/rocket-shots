@@ -48,7 +48,7 @@ function Affliated() {
             data.map((item, index)=>(
                 <div className="col-md-2 mb-4">
                     <div className="a-card p-3">
-                        <img src={item.image} alt="" className="w-100" style={{height:'100px', objectFit:'contain'}} />
+                        <img src={item.image} alt="rocketshots bangalore" className="w-100" style={{height:'100px', objectFit:'contain'}} />
                     </div>
                 </div>
             ))
@@ -62,14 +62,14 @@ function Affliated() {
             <h1 className='fs-1 text-white fw-bold'>Affliated Troll Pages</h1>
         </div>
         <div className="col-md-8">
-            <img src={i1} alt="" className="w-100 rounded-3" />
+            <img src={i1} alt="rocketshots bangalore" className="w-100 rounded-3" />
         </div>
     </div>
 
     <div className="row mt-5">
        
         <div className="col-md-8">
-            <img src={i2} alt="" className="w-100" />
+            <img src={i2} alt="rocketshots bangalore" className="w-100" />
         </div>
 
         <div className="col-md-4 facebook d-flex align-items-center justify-content-center rounded-3">
@@ -84,7 +84,7 @@ function Affliated() {
            <h1 className='fs-1 text-white fw-bold'>Affiliated News channels</h1>
        </div>
        <div className="col-md-8 rounded-3">
-           <img src={i3} alt="" className="w-100 rounded-3" />
+           <img src={i3} alt="rocketshots bangalore" className="w-100 rounded-3" />
        </div>
 
    </div>
