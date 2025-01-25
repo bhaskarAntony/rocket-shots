@@ -45,17 +45,17 @@ function Footer() {
         </div>
         <div className="line"></div>
         <div className="row">
-            <div className="col-md-6 mb-3">
+            <div className="col-md-12 text-center mb-3">
                 <p className="fs-6">Copyright &copy; {new Date().getFullYear()} Rocketshots. All right reserved.</p>
             </div>
-            <div className="col-md-6">
+            {/* <div className="col-md-6">
                 <div className="fs-4 d-flex justify-content-end gap-3">
                     <i className='bi bi-facebook'></i>
                     <i className='bi bi-instagram'></i>
                     <i className='bi bi-youtube'></i>
                     <i className='bi bi-linkedin'></i>
                 </div>
-            </div>
+            </div> */}
         </div>
    </footer>
   )

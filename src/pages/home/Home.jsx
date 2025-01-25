@@ -35,7 +35,10 @@ function Home() {
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+        <meta property="og:site_name" content="Rocketshots" />
+        <meta property="og:instagram" content="https://www.instagram.com/rocketshots" /> 
+        <meta property="og:video" content="https://www.youtube.com/@rocketshotsentertainment" />
+        <meta property="og:video:type" content="video/mp4" /> 
         <link rel="canonical" href="https://www.rocketshots.in" />
       </Helmet>
         <Hero/>
