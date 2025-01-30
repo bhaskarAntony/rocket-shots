@@ -27,11 +27,11 @@ const Slider = () => {
              position:'Managing Director',
             name:'Vikas V Angadi'
         },
-        {
-            image:image4,
-             position:'Marketing & Team Head',
-            name:'Adarsh Inamdar'
-        },
+        // {
+        //     image:image4,
+        //      position:'Marketing & Team Head',
+        //     name:'Adarsh Inamdar'
+        // },
         {
             image:image5,
              position:'Branding and advertising Head',

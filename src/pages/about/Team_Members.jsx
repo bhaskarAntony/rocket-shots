@@ -30,11 +30,11 @@ function Team_Members() {
             name:'Vikas V Angadi',
            link:'/portfolio/vikas'
         },
-        {
-            image:image4,
-            position:'Marketing & Team Head',
-            name:'Adarsh Inamdar'
-        },
+        // {
+        //     image:image4,
+        //     position:'Marketing & Team Head',
+        //     name:'Adarsh Inamdar'
+        // },
         {
             image:image5,
             position:'Branding and Advertising Head',
