@@ -28,6 +28,7 @@ import Abhishek from './pages/induvidual/Abhishek'
 import Govindh from './pages/induvidual/Govind'
 import Sumanth from './pages/induvidual/Sumanth'
 import Ajay from './pages/induvidual/Ajay'
+import NotFound from './components/NotFound'
 
 function App() {
   useEffect(()=>{
@@ -42,7 +43,7 @@ function App() {
     locatio
    } */}
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<NotFound/>}/>
         <Route path='/about-us' element={<About/>}/>
         <Route path='/content/creation' element={<ContentCreation/>}/>
         <Route path='/web/development' element={<Development/>}/>
