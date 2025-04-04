@@ -43,7 +43,7 @@ function App() {
     locatio
    } */}
       <Routes>
-        <Route path='/' element={<NotFound/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/about-us' element={<About/>}/>
         <Route path='/content/creation' element={<ContentCreation/>}/>
         <Route path='/web/development' element={<Development/>}/>
